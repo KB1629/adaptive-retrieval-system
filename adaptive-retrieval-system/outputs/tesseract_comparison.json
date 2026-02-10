@@ -1,0 +1,101 @@
+{
+  "summary": {
+    "avg_tesseract_time": 2.0418001413345337,
+    "avg_paddleocr_time": 119.51279292106628,
+    "avg_speedup": 112.84308008230626,
+    "avg_tesseract_chars": 560.3,
+    "avg_paddleocr_chars": 29.0
+  },
+  "per_page_results": [
+    {
+      "page": 0,
+      "size": "2257x1764",
+      "tesseract_time": 0.3950650691986084,
+      "tesseract_chars": 143,
+      "paddleocr_time": 249.38487911224365,
+      "paddleocr_chars": 29,
+      "speedup": 631.25013714354
+    },
+    {
+      "page": 1,
+      "size": "808x1077",
+      "tesseract_time": 2.6927731037139893,
+      "tesseract_chars": 35,
+      "paddleocr_time": 33.3464777469635,
+      "paddleocr_chars": 29,
+      "speedup": 12.383693858561864
+    },
+    {
+      "page": 2,
+      "size": "1701x2386",
+      "tesseract_time": 2.196113109588623,
+      "tesseract_chars": 959,
+      "paddleocr_time": 199.47888612747192,
+      "paddleocr_chars": 29,
+      "speedup": 90.83270131056155
+    },
+    {
+      "page": 3,
+      "size": "808x1077",
+      "tesseract_time": 2.6162641048431396,
+      "tesseract_chars": 35,
+      "paddleocr_time": 12.996984004974365,
+      "paddleocr_chars": 29,
+      "speedup": 4.967764523816532
+    },
+    {
+      "page": 4,
+      "size": "808x1077",
+      "tesseract_time": 1.8274040222167969,
+      "tesseract_chars": 35,
+      "paddleocr_time": 12.560431957244873,
+      "paddleocr_chars": 29,
+      "speedup": 6.873374363053004
+    },
+    {
+      "page": 5,
+      "size": "1370x1480",
+      "tesseract_time": 1.1418488025665283,
+      "tesseract_chars": 588,
+      "paddleocr_time": 200.01714086532593,
+      "paddleocr_chars": 29,
+      "speedup": 175.16954995770746
+    },
+    {
+      "page": 6,
+      "size": "1701x2386",
+      "tesseract_time": 2.054527997970581,
+      "tesseract_chars": 959,
+      "paddleocr_time": 94.5319287776947,
+      "paddleocr_chars": 29,
+      "speedup": 46.01150671641921
+    },
+    {
+      "page": 7,
+      "size": "1750x2270",
+      "tesseract_time": 2.7301151752471924,
+      "tesseract_chars": 923,
+      "paddleocr_time": 149.04069876670837,
+      "paddleocr_chars": 29,
+      "speedup": 54.59135941149948
+    },
+    {
+      "page": 8,
+      "size": "850x1644",
+      "tesseract_time": 2.6058928966522217,
+      "tesseract_chars": 1003,
+      "paddleocr_time": 83.00052213668823,
+      "paddleocr_chars": 29,
+      "speedup": 31.85108729653418
+    },
+    {
+      "page": 9,
+      "size": "1750x2270",
+      "tesseract_time": 2.1579971313476562,
+      "tesseract_chars": 923,
+      "paddleocr_time": 160.7699797153473,
+      "paddleocr_chars": 29,
+      "speedup": 74.49962624136919
+    }
+  ]
+}

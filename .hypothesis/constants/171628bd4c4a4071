@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/storage/base.py
+# hypothesis_version: 6.151.4
+
+['DocumentMetadata', 'doc_id', 'embedding_dim', 'id', 'metadata', 'modality', 'model_name', 'page_number', 'processed_at', 'score', 'source_file', 'text-heavy', 'vector', 'visual-critical']

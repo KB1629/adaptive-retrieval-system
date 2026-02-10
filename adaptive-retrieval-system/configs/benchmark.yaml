@@ -1,0 +1,58 @@
+# Benchmark Configuration
+# Full evaluation settings for reproducible benchmarking
+
+router:
+  type: heuristic
+  text_density_threshold: 0.7
+  image_area_threshold: 0.3
+  timeout_ms: 50
+
+text_embedding:
+  model: nomic-embed-text-v1.5
+  max_tokens: 8192
+  batch_size: 32
+
+vision_embedding:
+  model: vidore/colpali-v1.2
+  lora_weights: null  # Set to path for fine-tuned model
+  batch_size: 4
+
+vector_db:
+  backend: qdrant
+  collection_name: adaptive_retrieval_benchmark
+  qdrant:
+    host: localhost
+    port: 6333
+
+hardware:
+  device: auto
+  max_memory_gb: 8
+  mixed_precision: true
+
+experiment:
+  random_seed: 42
+  checkpoint_interval: 100
+  log_level: INFO
+
+benchmark:
+  metrics:
+    - recall@1
+    - recall@5
+    - recall@10
+    - mrr
+    - ndcg
+  latency_iterations: 100
+  datasets:
+    - name: REAL-MM-RAG_TechReport
+      source: ibm-research/REAL-MM-RAG_TechReport
+      split: test
+    - name: REAL-MM-RAG_TechSlides
+      source: ibm-research/REAL-MM-RAG_TechSlides
+      split: test
+  baselines:
+    - name: ColPali
+      type: vision_only
+    - name: TextOnly
+      type: text_only
+    - name: Adaptive
+      type: adaptive

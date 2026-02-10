@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/data/real_mm_rag.py
+# hypothesis_version: 6.151.4
+
+['RGB', 'convert', 'corpus', 'doc_id', 'document_id', 'hf_dataset', 'image', 'page_num', 'page_number', 'qrels', 'queries', 'query', 'query_id', 'techreport', 'techslides', 'text']

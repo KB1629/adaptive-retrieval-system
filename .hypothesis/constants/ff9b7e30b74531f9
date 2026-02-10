@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/retrieval/retriever.py
+# hypothesis_version: 6.151.4
+
+[1000, 'default_top_k', 'encoder_info', 'model_name', 'processed_at', 'source_file', 'vector_db_info']

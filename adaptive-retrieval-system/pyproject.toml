@@ -1,0 +1,136 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adaptive-retrieval-system"
+version = "0.1.0"
+description = "Modality-Adaptive RAG Pipeline for Technical Documentation"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Kabeleswar P E", email = "research@example.com"}
+]
+keywords = [
+    "rag",
+    "retrieval",
+    "multimodal",
+    "document-understanding",
+    "colpali",
+    "vision-language-models"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    # Core ML
+    "torch>=2.0.0",
+    "transformers>=4.35.0",
+    "sentence-transformers>=2.2.0",
+    
+    # Document Processing
+    "pymupdf>=1.23.0",
+    "pillow>=10.0.0",
+    "pdf2image>=1.16.0",
+    
+    # Embeddings
+    "nomic>=2.0.0",
+    
+    # Vector Databases
+    "qdrant-client>=1.7.0",
+    "lancedb>=0.4.0",
+    
+    # Data Loading
+    "datasets>=2.14.0",
+    "huggingface-hub>=0.19.0",
+    
+    # Configuration & Utilities
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+    "tqdm>=4.65.0",
+    "rich>=13.0.0",
+    
+    # Experiment Tracking
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    
+    # CLI
+    "click>=8.1.0",
+    "typer>=0.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "hypothesis>=6.88.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.5.0",
+    "pre-commit>=3.4.0",
+]
+finetuning = [
+    "peft>=0.6.0",
+    "accelerate>=0.24.0",
+    "bitsandbytes>=0.41.0",
+    "wandb>=0.15.0",
+]
+notebooks = [
+    "jupyter>=1.0.0",
+    "ipywidgets>=8.1.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+]
+all = [
+    "adaptive-retrieval-system[dev,finetuning,notebooks]",
+]
+
+[project.scripts]
+ars = "src.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/username/adaptive-retrieval-system"
+Documentation = "https://github.com/username/adaptive-retrieval-system#readme"
+Repository = "https://github.com/username/adaptive-retrieval-system"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::UserWarning",
+]
+
+[tool.hypothesis]
+max_examples = 100
+deadline = 60000
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311"]
+include = '\.pyi?$'
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E", "F", "I", "N", "W", "UP"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true

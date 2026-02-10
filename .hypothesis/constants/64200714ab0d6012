@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/data/docvqa.py
+# hypothesis_version: 6.151.4
+
+['RGB', 'answer', 'answers', 'convert', 'hf_dataset', 'image', 'lmms-lab/DocVQA', 'question', 'questionId', 'question_id', 'test', 'train', 'validation']

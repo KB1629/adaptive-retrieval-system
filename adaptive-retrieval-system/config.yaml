@@ -1,0 +1,76 @@
+# Adaptive Retrieval System - Default Configuration
+# This file contains default settings for all components.
+# Override with environment-specific configs in configs/ directory.
+
+# Router Configuration
+router:
+  type: heuristic  # Options: "heuristic", "ml"
+  text_density_threshold: 0.7  # Pages with >70% text classified as text-heavy
+  image_area_threshold: 0.3    # Pages with >30% image area classified as visual-critical
+  ml_model_path: null          # Path to DistilBERT weights (if using ML router)
+  timeout_ms: 50               # Max classification time per page
+
+# Text Embedding Path Configuration
+text_embedding:
+  model: nomic-embed-text-v1.5
+  max_tokens: 8192
+  batch_size: 32
+  normalize: true
+
+# Vision Embedding Path Configuration
+vision_embedding:
+  model: vidore/colpali-v1.2   # Options: "vidore/colpali-v1.2", "google/siglip-base-patch16-224"
+  lora_weights: null           # Path to LoRA weights (optional)
+  batch_size: 4                # Reduced for memory efficiency
+  image_size: 448              # ColPali default
+
+# Vector Database Configuration
+vector_db:
+  backend: qdrant              # Options: "qdrant", "lancedb"
+  collection_name: adaptive_retrieval
+  
+  # Qdrant settings
+  qdrant:
+    host: localhost
+    port: 6333
+    prefer_grpc: false
+    
+  # LanceDB settings
+  lancedb:
+    uri: ./data/lancedb
+
+# Retrieval Configuration
+retrieval:
+  default_top_k: 10
+  score_threshold: 0.0         # Minimum relevance score
+  rerank: false                # Enable reranking (future feature)
+
+# Hardware Configuration
+hardware:
+  device: auto                 # Options: "auto", "mps", "cuda", "cpu"
+  max_memory_gb: 8             # Memory limit for model loading
+  mixed_precision: true        # Use FP16 where supported
+
+# Experiment Configuration
+experiment:
+  random_seed: 42
+  checkpoint_interval: 100     # Save checkpoint every N steps
+  log_level: INFO              # Options: DEBUG, INFO, WARNING, ERROR
+
+# Data Configuration
+data:
+  cache_dir: null              # null = use HuggingFace default (~/.cache/huggingface)
+  datasets:
+    - ibm-research/REAL-MM-RAG_TechReport
+    - ibm-research/REAL-MM-RAG_TechSlides
+    - lmms-lab/DocVQA
+
+# Benchmark Configuration
+benchmark:
+  metrics:
+    - recall@1
+    - recall@5
+    - recall@10
+    - mrr
+    - ndcg
+  latency_iterations: 100      # Number of iterations for latency measurement

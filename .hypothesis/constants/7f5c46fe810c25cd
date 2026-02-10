@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/data/vidore.py
+# hypothesis_version: 6.151.4
+
+['/', 'RGB', '__iter__', 'convert', 'doc_id', 'docid', 'hf_dataset', 'image', 'query', 'question', 'test', 'train', 'validation', 'vidore/tatdqa_test']

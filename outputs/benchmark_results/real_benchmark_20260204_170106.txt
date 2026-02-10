@@ -1,0 +1,72 @@
+
+======================================================================
+ADAPTIVE RETRIEVAL SYSTEM - REAL BENCHMARK REPORT
+======================================================================
+
+Generated: 2026-02-04T16:57:20.135289
+Device: DeviceType.MPS (Apple Silicon (MPS))
+Dataset: DocVQA (ViDoRe benchmark)
+Model: ColPali v1.2
+
+======================================================================
+METHODOLOGY
+======================================================================
+
+- ColPali Baseline: Published numbers from arXiv:2407.01449 (400ms/page on GPU)
+- Our System: Actual measurements on 100 real DocVQA pages
+- Model: Real ColPali v1.2 (vidore/colpali-v1.2)
+- Hardware: Apple Silicon (MPS)
+- Note: First page excluded from statistics (model loading cold start)
+
+======================================================================
+ROUTER CLASSIFICATION RESULTS
+======================================================================
+
+Total Pages Processed: 100
+- Text-Heavy Pages: 57 (57.0%)
+- Visual-Critical Pages: 43 (43.0%)
+
+======================================================================
+LATENCY MEASUREMENTS (Our Adaptive System)
+======================================================================
+
+Cold Start (First Page):
+  First Page: 31533.58 ms (includes ColPali model loading)
+
+Steady-State Latency (excluding cold start):
+  Mean:   1845.80 ms
+  Median: 421.47 ms
+  Std:    1881.59 ms
+  Min:    188.41 ms
+  Max:    8819.95 ms
+  P95:    4255.95 ms
+
+Component Breakdown (steady-state):
+  Router:    279.30 ms (mean)
+  Embedding: 1566.50 ms (mean)
+
+======================================================================
+COMPARISON WITH COLPALI BASELINE
+======================================================================
+
+ColPali (Published):     400 ms/page (GPU)
+Our Adaptive System:     1845.80 ms/page (M1 Pro)
+
+Speedup Factor:          0.22x
+Latency Reduction:       -361.5%
+
+Target (50% reduction):  ❌ NOT MET
+
+======================================================================
+ANALYSIS
+======================================================================
+
+ColPali baseline from published paper (GPU). Our system on M1 Pro with real ColPali model.
+
+Key Findings:
+1. Router routes 57% of pages to fast text path
+2. Text path latency: ~188ms (vs ~400ms for ColPali)
+3. Vision path latency: ~8820ms on M1 Pro with real ColPali
+4. Adaptive routing provides 0.2x speedup over pure ColPali approach
+
+======================================================================

@@ -1,0 +1,44 @@
+# Colab/Kaggle Configuration (T4 GPU)
+# Optimized for cloud fine-tuning with T4 GPU (16GB VRAM)
+
+router:
+  type: heuristic
+  text_density_threshold: 0.7
+  image_area_threshold: 0.3
+  timeout_ms: 50
+
+text_embedding:
+  model: nomic-embed-text-v1.5
+  max_tokens: 8192
+  batch_size: 64  # Larger batches on GPU
+
+vision_embedding:
+  model: vidore/colpali-v1.2
+  lora_weights: null
+  batch_size: 8  # Optimized for T4 16GB
+
+vector_db:
+  backend: lancedb
+  collection_name: adaptive_retrieval_colab
+  lancedb:
+    uri: /content/lancedb
+
+hardware:
+  device: cuda
+  max_memory_gb: 15
+  mixed_precision: true
+
+experiment:
+  random_seed: 42
+  checkpoint_interval: 100
+  log_level: INFO
+
+# Fine-tuning specific settings
+finetuning:
+  lora_r: 16
+  lora_alpha: 32
+  lora_dropout: 0.1
+  learning_rate: 2e-4
+  num_epochs: 3
+  warmup_steps: 100
+  gradient_accumulation_steps: 4

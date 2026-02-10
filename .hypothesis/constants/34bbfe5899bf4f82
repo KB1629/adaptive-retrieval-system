@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/experiment/export.py
+# hypothesis_version: 6.151.4
+
+[100, '-', '=', 'ColPali', 'Experiment Results', 'No results to export', '\\_', '\\begin{table}[htbp]', '\\bottomrule', '\\centering', '\\end{table}', '\\end{tabular}', '\\midrule', '\\toprule', '_', 'batch_size', 'completed_at', 'created_at', 'experiment_id', 'mean_latency_ms', 'median_latency_ms', 'mrr', 'ndcg', 'p95_latency_ms', 'random_seed', 'recall_at_1', 'recall_at_10', 'recall_at_5', 'router_accuracy', 'router_type', 'std_latency_ms', 'tab:results', 'text_model', 'vector_db_backend', 'vision_model', 'w']

@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/benchmark/throughput.py
+# hypothesis_version: 6.151.4
+
+[0.0, 1.0, 100, 1000, 'avg_time_per_page_ms', 'improvement_percent', 'inf', 'pages_per_second', 'speedup', 'throughput_diff', 'total_pages', 'total_time_seconds']

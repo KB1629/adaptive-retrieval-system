@@ -1,0 +1,37 @@
+# Development Configuration (Local M1 Pro)
+# Optimized for local development with reduced resource usage
+
+router:
+  type: heuristic
+  text_density_threshold: 0.7
+  image_area_threshold: 0.3
+  timeout_ms: 50
+
+text_embedding:
+  model: nomic-embed-text-v1.5
+  max_tokens: 8192
+  batch_size: 16  # Reduced for local dev
+
+vision_embedding:
+  model: vidore/colpali-v1.2
+  lora_weights: null
+  batch_size: 2  # Reduced for M1 Pro memory
+
+vector_db:
+  backend: lancedb  # Simpler for local dev
+  collection_name: adaptive_retrieval_dev
+  lancedb:
+    uri: ./data/lancedb_dev
+
+hardware:
+  device: auto  # Will detect MPS on M1 Pro
+  max_memory_gb: 8
+  mixed_precision: true
+
+experiment:
+  random_seed: 42
+  checkpoint_interval: 50
+  log_level: DEBUG
+
+data:
+  cache_dir: ./data/cache

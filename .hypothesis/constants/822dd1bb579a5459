@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/finetuning/synthetic_qa.py
+# hypothesis_version: 6.151.4
+
+[200, 'answer', 'context', 'csv', 'doc_id', 'hf', 'json', 'page_number', 'placeholder', 'question', 'r', 'w']

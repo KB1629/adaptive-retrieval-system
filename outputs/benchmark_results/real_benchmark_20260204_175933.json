@@ -1,0 +1,1811 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-04T17:56:10.775292",
+    "device": "DeviceType.MPS",
+    "hardware_info": {
+      "device_name": "Apple Silicon (MPS)",
+      "max_memory_gb": 8.0
+    },
+    "dataset": "DocVQA (ViDoRe benchmark)",
+    "model": "ColPali v1.2"
+  },
+  "colpali_baseline": {
+    "latency_ms_per_page": 400,
+    "source": "ColPali paper (arXiv:2407.01449)",
+    "note": "Measured on GPU, our M1 Pro comparison is conservative"
+  },
+  "adaptive_system": {
+    "pages_processed": 100,
+    "per_page_results": [
+      {
+        "page_index": 0,
+        "page_size": "2257x1764",
+        "source_doc": "0",
+        "timings": {
+          "router_ms": 246.6217500041239,
+          "embedding_ms": 26676.85745799099
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5088290527470848
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 26923.482957994565,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 1,
+        "page_size": "808x1077",
+        "source_doc": "1",
+        "timings": {
+          "router_ms": 66.98541698278859,
+          "embedding_ms": 2546.654584002681
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.6995786389021746
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2613.6421249830164,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 2,
+        "page_size": "1701x2386",
+        "source_doc": "2",
+        "timings": {
+          "router_ms": 763.0041250085924,
+          "embedding_ms": 3727.706167002907
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5149002913801086
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4490.714207990095,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 3,
+        "page_size": "808x1077",
+        "source_doc": "3",
+        "timings": {
+          "router_ms": 64.63274999987334,
+          "embedding_ms": 2005.616333015496
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.6995786389021746
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2070.2548749977723,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 4,
+        "page_size": "808x1077",
+        "source_doc": "4",
+        "timings": {
+          "router_ms": 120.62974998843856,
+          "embedding_ms": 4030.750125006307
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.6995786389021746
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4151.387707999675,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 5,
+        "page_size": "1370x1480",
+        "source_doc": "5",
+        "timings": {
+          "router_ms": 150.13250001356937,
+          "embedding_ms": 3466.5534169762395
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5037069863906066
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3616.688041976886,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 6,
+        "page_size": "1701x2386",
+        "source_doc": "6",
+        "timings": {
+          "router_ms": 432.2416670038365,
+          "embedding_ms": 3110.830249992432
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5149002913801086
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3543.081000010716,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 7,
+        "page_size": "1750x2270",
+        "source_doc": "7",
+        "timings": {
+          "router_ms": 229.77620898745954,
+          "embedding_ms": 6236.1041250114795
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5275809390754358
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 6465.8822499914095,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 8,
+        "page_size": "850x1644",
+        "source_doc": "8",
+        "timings": {
+          "router_ms": 76.55295901349746,
+          "embedding_ms": 3852.172500017332
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5602112079880297
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3928.727082995465,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 9,
+        "page_size": "1750x2270",
+        "source_doc": "9",
+        "timings": {
+          "router_ms": 257.88316698162816,
+          "embedding_ms": 0.4840420151595026
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5275809390754358
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 258.36883299052715,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 10,
+        "page_size": "850x1644",
+        "source_doc": "10",
+        "timings": {
+          "router_ms": 73.746541980654,
+          "embedding_ms": 2306.455125013599
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5602112079880297
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2380.2029579819646,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 11,
+        "page_size": "1701x2386",
+        "source_doc": "11",
+        "timings": {
+          "router_ms": 248.2649159792345,
+          "embedding_ms": 2489.3194169853814
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5149002913801086
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2737.588500021957,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 12,
+        "page_size": "1701x2386",
+        "source_doc": "12",
+        "timings": {
+          "router_ms": 451.725916005671,
+          "embedding_ms": 3912.362834002124
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5149002913801086
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4364.090791990748,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 13,
+        "page_size": "1653x2339",
+        "source_doc": "13",
+        "timings": {
+          "router_ms": 531.2336250208318,
+          "embedding_ms": 3902.8395409986842
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5113578624082735
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4434.093792020576,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 14,
+        "page_size": "850x1644",
+        "source_doc": "14",
+        "timings": {
+          "router_ms": 122.83929099794477,
+          "embedding_ms": 4050.6415000127163
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5602112079880297
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4173.503541998798,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 15,
+        "page_size": "1653x2339",
+        "source_doc": "15",
+        "timings": {
+          "router_ms": 312.71575001301244,
+          "embedding_ms": 3413.822959002573
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5113578624082735
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3726.5408750099596,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 16,
+        "page_size": "1653x2339",
+        "source_doc": "16",
+        "timings": {
+          "router_ms": 256.87500002095476,
+          "embedding_ms": 3871.51329201879
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5113578624082735
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4128.391083009774,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 17,
+        "page_size": "1653x2339",
+        "source_doc": "17",
+        "timings": {
+          "router_ms": 353.0759169952944,
+          "embedding_ms": 3584.94050000445
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5113578624082735
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3938.018958986504,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 18,
+        "page_size": "850x1644",
+        "source_doc": "18",
+        "timings": {
+          "router_ms": 109.72666699672118,
+          "embedding_ms": 2885.768417007057
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5602112079880297
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2995.496917021228,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 19,
+        "page_size": "1653x2339",
+        "source_doc": "19",
+        "timings": {
+          "router_ms": 434.3098330136854,
+          "embedding_ms": 3071.2189579789992
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5113578624082735
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3505.5316670041066,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 20,
+        "page_size": "1679x2340",
+        "source_doc": "20",
+        "timings": {
+          "router_ms": 269.7921660146676,
+          "embedding_ms": 1.0559999791439623
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 270.8530419913586,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 21,
+        "page_size": "1679x2340",
+        "source_doc": "21",
+        "timings": {
+          "router_ms": 209.94095900096,
+          "embedding_ms": 0.19362499006092548
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 210.1360829838086,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 22,
+        "page_size": "1679x2340",
+        "source_doc": "22",
+        "timings": {
+          "router_ms": 211.2015830061864,
+          "embedding_ms": 0.21487497724592686
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 211.41795901348814,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 23,
+        "page_size": "850x1644",
+        "source_doc": "23",
+        "timings": {
+          "router_ms": 78.25762499123812,
+          "embedding_ms": 3798.0767079861835
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5602112079880297
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3876.3367919891607,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 24,
+        "page_size": "2156x1695",
+        "source_doc": "24",
+        "timings": {
+          "router_ms": 504.8663339985069,
+          "embedding_ms": 3.0645419901702553
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5719693607295947
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 507.9508339986205,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 25,
+        "page_size": "1679x2340",
+        "source_doc": "25",
+        "timings": {
+          "router_ms": 261.06362498831004,
+          "embedding_ms": 0.2027910086326301
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 261.2681250029709,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 26,
+        "page_size": "1679x2340",
+        "source_doc": "26",
+        "timings": {
+          "router_ms": 226.20212499168701,
+          "embedding_ms": 0.2211670216638595
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 226.42516597989015,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 27,
+        "page_size": "1679x2340",
+        "source_doc": "27",
+        "timings": {
+          "router_ms": 254.26300000981428,
+          "embedding_ms": 0.17487499280832708
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 254.43949998589233,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 28,
+        "page_size": "1695x2200",
+        "source_doc": "28",
+        "timings": {
+          "router_ms": 214.82279102201574,
+          "embedding_ms": 0.19695900846272707
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5302067528043402
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 215.0206250080373,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 29,
+        "page_size": "2156x1695",
+        "source_doc": "29",
+        "timings": {
+          "router_ms": 220.14108300209045,
+          "embedding_ms": 0.2644580090418458
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5719693607295947
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 220.40749998996034,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 30,
+        "page_size": "1701x2386",
+        "source_doc": "30",
+        "timings": {
+          "router_ms": 233.52583299856633,
+          "embedding_ms": 0.19574997713789344
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5007275317106249
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 233.72316698078066,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 31,
+        "page_size": "1701x2386",
+        "source_doc": "31",
+        "timings": {
+          "router_ms": 237.22062501474284,
+          "embedding_ms": 0.16437500016763806
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5007275317106249
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 237.3863340180833,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 32,
+        "page_size": "1695x2200",
+        "source_doc": "32",
+        "timings": {
+          "router_ms": 254.13049999042414,
+          "embedding_ms": 0.16808300279080868
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5302067528043402
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 254.30050000431947,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 33,
+        "page_size": "1695x2200",
+        "source_doc": "33",
+        "timings": {
+          "router_ms": 206.24849997693673,
+          "embedding_ms": 0.17241601017303765
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5302067528043402
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 206.4222090120893,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 34,
+        "page_size": "1653x2339",
+        "source_doc": "34",
+        "timings": {
+          "router_ms": 212.68145900103264,
+          "embedding_ms": 3656.908957986161
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5257875467890839
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3869.5925420033745,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 35,
+        "page_size": "1653x2339",
+        "source_doc": "35",
+        "timings": {
+          "router_ms": 246.91466701915488,
+          "embedding_ms": 2851.620292000007
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5257875467890839
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3098.537292011315,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 36,
+        "page_size": "1653x2339",
+        "source_doc": "36",
+        "timings": {
+          "router_ms": 385.909166012425,
+          "embedding_ms": 3613.4917910094373
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5257875467890839
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3999.404333997518,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 37,
+        "page_size": "2159x1695",
+        "source_doc": "37",
+        "timings": {
+          "router_ms": 257.13216699659824,
+          "embedding_ms": 0.5518750112969428
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 257.68554100068286,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 38,
+        "page_size": "1653x2339",
+        "source_doc": "38",
+        "timings": {
+          "router_ms": 227.48879200662486,
+          "embedding_ms": 3131.5619999950286
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5257875467890839
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3359.0527499909513,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 39,
+        "page_size": "2159x1695",
+        "source_doc": "39",
+        "timings": {
+          "router_ms": 440.19279201165773,
+          "embedding_ms": 0.39283299702219665
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 440.5879999976605,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 40,
+        "page_size": "1701x2386",
+        "source_doc": "40",
+        "timings": {
+          "router_ms": 273.3095000148751,
+          "embedding_ms": 0.21991701214574277
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 273.5331669973675,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 41,
+        "page_size": "2162x1695",
+        "source_doc": "41",
+        "timings": {
+          "router_ms": 195.09358299546875,
+          "embedding_ms": 0.17883401596918702
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5427760897615028
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 195.27404199470766,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 42,
+        "page_size": "1701x2386",
+        "source_doc": "42",
+        "timings": {
+          "router_ms": 242.73429097956978,
+          "embedding_ms": 0.16479101032018661
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 242.90041599306278,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 43,
+        "page_size": "1701x2386",
+        "source_doc": "43",
+        "timings": {
+          "router_ms": 224.10954200313427,
+          "embedding_ms": 0.16912497812882066
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 224.28033401956782,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 44,
+        "page_size": "1701x2386",
+        "source_doc": "44",
+        "timings": {
+          "router_ms": 225.77583297970705,
+          "embedding_ms": 0.1621670089662075
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 225.939500000095,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 45,
+        "page_size": "1701x2386",
+        "source_doc": "45",
+        "timings": {
+          "router_ms": 220.2183750050608,
+          "embedding_ms": 0.15904198517091572
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 220.37837500101887,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 46,
+        "page_size": "1701x2386",
+        "source_doc": "46",
+        "timings": {
+          "router_ms": 217.9807499924209,
+          "embedding_ms": 0.19366698688827455
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 218.17562499199994,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 47,
+        "page_size": "1701x2386",
+        "source_doc": "47",
+        "timings": {
+          "router_ms": 215.97945797839202,
+          "embedding_ms": 0.17958300304599106
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 216.1605829896871,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 48,
+        "page_size": "1701x2386",
+        "source_doc": "48",
+        "timings": {
+          "router_ms": 228.48837499623187,
+          "embedding_ms": 0.14133300282992423
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 228.6309170012828,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 49,
+        "page_size": "1701x2386",
+        "source_doc": "49",
+        "timings": {
+          "router_ms": 333.0592499987688,
+          "embedding_ms": 0.22262500715442002
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 333.28333401004784,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 50,
+        "page_size": "1695x1553",
+        "source_doc": "50",
+        "timings": {
+          "router_ms": 149.57608398981392,
+          "embedding_ms": 3615.0383749918547
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529009395058158
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3764.6158749994356,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 51,
+        "page_size": "1695x1553",
+        "source_doc": "51",
+        "timings": {
+          "router_ms": 172.55858299904503,
+          "embedding_ms": 2578.447416977724
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529009395058158
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2751.015291985823,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 52,
+        "page_size": "2159x1695",
+        "source_doc": "52",
+        "timings": {
+          "router_ms": 210.7511250069365,
+          "embedding_ms": 0.9531249816063792
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 211.71245799632743,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 53,
+        "page_size": "2159x1695",
+        "source_doc": "53",
+        "timings": {
+          "router_ms": 195.38699998520315,
+          "embedding_ms": 0.17312497948296368
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 195.56154200108722,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 54,
+        "page_size": "2159x1695",
+        "source_doc": "54",
+        "timings": {
+          "router_ms": 192.33516699750908,
+          "embedding_ms": 0.18833301146514714
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 192.52495799446478,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 55,
+        "page_size": "1748x2236",
+        "source_doc": "55",
+        "timings": {
+          "router_ms": 233.46633298206143,
+          "embedding_ms": 0.33433400676585734
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5352718225665914
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 233.8027499790769,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 56,
+        "page_size": "1653x2339",
+        "source_doc": "56",
+        "timings": {
+          "router_ms": 233.15483299666084,
+          "embedding_ms": 3730.3724579978734
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529725380805845
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3963.52904199739,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 57,
+        "page_size": "1695x1553",
+        "source_doc": "57",
+        "timings": {
+          "router_ms": 312.3343329934869,
+          "embedding_ms": 2973.802791995695
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529009395058158
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3286.138875002507,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 58,
+        "page_size": "2159x1695",
+        "source_doc": "58",
+        "timings": {
+          "router_ms": 224.01516701211222,
+          "embedding_ms": 0.23008399875834584
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 224.247958016349,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 59,
+        "page_size": "1653x2339",
+        "source_doc": "59",
+        "timings": {
+          "router_ms": 208.6640420020558,
+          "embedding_ms": 2942.364207992796
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529725380805845
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3151.03133401135,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 60,
+        "page_size": "2164x1695",
+        "source_doc": "60",
+        "timings": {
+          "router_ms": 368.8247909885831,
+          "embedding_ms": 0.17174999811686575
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5668958371346857
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 368.99816698860377,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 61,
+        "page_size": "1748x2236",
+        "source_doc": "61",
+        "timings": {
+          "router_ms": 260.81466700998135,
+          "embedding_ms": 0.4055419994983822
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5352718225665914
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 261.2212499952875,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 62,
+        "page_size": "1653x2339",
+        "source_doc": "62",
+        "timings": {
+          "router_ms": 250.8019160013646,
+          "embedding_ms": 3172.0941249805037
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529725380805845
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3422.8971249831375,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 63,
+        "page_size": "1653x2339",
+        "source_doc": "63",
+        "timings": {
+          "router_ms": 393.3352080057375,
+          "embedding_ms": 2769.388875021832
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529725380805845
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3162.725457979832,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 64,
+        "page_size": "1685x2191",
+        "source_doc": "64",
+        "timings": {
+          "router_ms": 366.7482500022743,
+          "embedding_ms": 2987.0131659845356
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3353.7630409991834,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 65,
+        "page_size": "1685x2191",
+        "source_doc": "65",
+        "timings": {
+          "router_ms": 235.542041977169,
+          "embedding_ms": 2689.2792909929994
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2924.8229159857146,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 66,
+        "page_size": "1685x2191",
+        "source_doc": "66",
+        "timings": {
+          "router_ms": 231.12112501985393,
+          "embedding_ms": 1997.7554170181975
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2228.878290974535,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 67,
+        "page_size": "1685x2191",
+        "source_doc": "67",
+        "timings": {
+          "router_ms": 237.49320799834095,
+          "embedding_ms": 2060.624292003922
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2298.11916599283,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 68,
+        "page_size": "1685x2191",
+        "source_doc": "68",
+        "timings": {
+          "router_ms": 230.95083300722763,
+          "embedding_ms": 2038.210041995626
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2269.1627079911996,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 69,
+        "page_size": "1685x2191",
+        "source_doc": "69",
+        "timings": {
+          "router_ms": 233.00016700522974,
+          "embedding_ms": 2003.1757079996169
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2236.17866699351,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 70,
+        "page_size": "1685x2191",
+        "source_doc": "70",
+        "timings": {
+          "router_ms": 263.38599997689016,
+          "embedding_ms": 2719.55483299098
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2982.942707982147,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 71,
+        "page_size": "1791x2289",
+        "source_doc": "71",
+        "timings": {
+          "router_ms": 307.12687500636093,
+          "embedding_ms": 0.7011250127106905
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5020473974790001
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 307.8342499793507,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 72,
+        "page_size": "1791x2289",
+        "source_doc": "72",
+        "timings": {
+          "router_ms": 229.8776249808725,
+          "embedding_ms": 0.1897919864859432
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5020473974790001
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 230.06858400185592,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 73,
+        "page_size": "1791x2289",
+        "source_doc": "73",
+        "timings": {
+          "router_ms": 226.72029200475663,
+          "embedding_ms": 0.15133299166336656
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5020473974790001
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 226.8725410103798,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 74,
+        "page_size": "1701x2386",
+        "source_doc": "74",
+        "timings": {
+          "router_ms": 247.93604199658148,
+          "embedding_ms": 0.19649998284876347
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7604289100678366
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 248.13358299434185,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 75,
+        "page_size": "1791x2289",
+        "source_doc": "75",
+        "timings": {
+          "router_ms": 229.19208300299942,
+          "embedding_ms": 0.17108299653045833
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5020473974790001
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 229.36429199762642,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 76,
+        "page_size": "1791x2289",
+        "source_doc": "76",
+        "timings": {
+          "router_ms": 234.07949999091215,
+          "embedding_ms": 0.17037501675076783
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5020473974790001
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 234.25087501527742,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 77,
+        "page_size": "1788x2286",
+        "source_doc": "77",
+        "timings": {
+          "router_ms": 234.07195901381783,
+          "embedding_ms": 0.21020800340920687
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.524670475521678
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 234.28358297678642,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 78,
+        "page_size": "1701x2386",
+        "source_doc": "78",
+        "timings": {
+          "router_ms": 241.7193749861326,
+          "embedding_ms": 0.1762080064509064
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7604289100678366
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 241.896583000198,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 79,
+        "page_size": "2284x1786",
+        "source_doc": "79",
+        "timings": {
+          "router_ms": 236.30399999092333,
+          "embedding_ms": 0.16270802007056773
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5005843077144447
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 236.46812498918734,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 80,
+        "page_size": "2284x1786",
+        "source_doc": "80",
+        "timings": {
+          "router_ms": 227.91212500305846,
+          "embedding_ms": 0.15804197755642235
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5005843077144447
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 228.07099999045022,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 81,
+        "page_size": "1701x2386",
+        "source_doc": "81",
+        "timings": {
+          "router_ms": 231.43399998662062,
+          "embedding_ms": 0.1508750137872994
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7604289100678366
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 231.58570798113942,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 82,
+        "page_size": "1768x2266",
+        "source_doc": "82",
+        "timings": {
+          "router_ms": 227.38729100092314,
+          "embedding_ms": 3180.508041026769
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5333073620205925
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3407.8969580004923,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 83,
+        "page_size": "2284x1786",
+        "source_doc": "83",
+        "timings": {
+          "router_ms": 498.6984580173157,
+          "embedding_ms": 0.19995798356831074
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5005843077144447
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 498.90112501452677,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 84,
+        "page_size": "2284x1786",
+        "source_doc": "84",
+        "timings": {
+          "router_ms": 230.90945798321627,
+          "embedding_ms": 0.185334007255733
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5005843077144447
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 231.09616700094193,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 85,
+        "page_size": "3238x2136",
+        "source_doc": "85",
+        "timings": {
+          "router_ms": 443.237625004258,
+          "embedding_ms": 0.16962498193606734
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5046567250833175
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 443.4082910011057,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 86,
+        "page_size": "3238x2136",
+        "source_doc": "86",
+        "timings": {
+          "router_ms": 423.2776660064701,
+          "embedding_ms": 0.24125000345520675
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5046567250833175
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 423.52016700897366,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 87,
+        "page_size": "3238x2136",
+        "source_doc": "87",
+        "timings": {
+          "router_ms": 490.12454101466574,
+          "embedding_ms": 0.27962500462308526
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5046567250833175
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 490.40574999526143,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 88,
+        "page_size": "3238x2136",
+        "source_doc": "88",
+        "timings": {
+          "router_ms": 402.1608750044834,
+          "embedding_ms": 0.16891598352231085
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5046567250833175
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 402.33137499308214,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 89,
+        "page_size": "1768x2266",
+        "source_doc": "89",
+        "timings": {
+          "router_ms": 253.90362498001195,
+          "embedding_ms": 4063.156624994008
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5333073620205925
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4317.07020898466,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 90,
+        "page_size": "1784x2284",
+        "source_doc": "90",
+        "timings": {
+          "router_ms": 262.1938340016641,
+          "embedding_ms": 1.0904169757850468
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.514786598218717
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 263.2879999873694,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 91,
+        "page_size": "1784x2284",
+        "source_doc": "91",
+        "timings": {
+          "router_ms": 230.79620898352005,
+          "embedding_ms": 0.16133300960063934
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.514786598218717
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 230.95875000581145,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 92,
+        "page_size": "1784x2284",
+        "source_doc": "92",
+        "timings": {
+          "router_ms": 230.99237499991432,
+          "embedding_ms": 0.15999999595806003
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.514786598218717
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 231.15370800951496,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 93,
+        "page_size": "1701x2386",
+        "source_doc": "93",
+        "timings": {
+          "router_ms": 514.2531669989694,
+          "embedding_ms": 0.1990000018849969
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5413832189112289
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 514.454249991104,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 94,
+        "page_size": "1784x2284",
+        "source_doc": "94",
+        "timings": {
+          "router_ms": 278.2051670073997,
+          "embedding_ms": 0.16758398851379752
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.514786598218717
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 278.3744999906048,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 95,
+        "page_size": "1701x2386",
+        "source_doc": "95",
+        "timings": {
+          "router_ms": 232.59041699930094,
+          "embedding_ms": 0.1806250074878335
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5413832189112289
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 232.77229198720306,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Failed to load PaddleOCR v5: `use_angle_cls` and `use_textline_orientation` are mutually exclusive.",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 96,
+        "page_size": "1768x2266",
+        "source_doc": "96",
+        "timings": {
+          "router_ms": 226.99887500493787,
+          "embedding_ms": 3660.627832985483
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5333073620205925
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3887.6285839942284,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 97,
+        "page_size": "1768x2266",
+        "source_doc": "97",
+        "timings": {
+          "router_ms": 269.94704199023545,
+          "embedding_ms": 2003.549541987013
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5333073620205925
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2273.498249996919,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 98,
+        "page_size": "1768x2266",
+        "source_doc": "98",
+        "timings": {
+          "router_ms": 258.1935829948634,
+          "embedding_ms": 2949.6088339947164
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5333073620205925
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3207.807833008701,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 99,
+        "page_size": "1711x2289",
+        "source_doc": "99",
+        "timings": {
+          "router_ms": 271.80654200492427,
+          "embedding_ms": 2637.3945829982404
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5250359595889584
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2909.20379201998,
+        "embedding_dim": 128,
+        "success": true
+      }
+    ],
+    "router_stats": {
+      "text_heavy": 57,
+      "visual_critical": 43
+    },
+    "latency_stats": {
+      "total": {
+        "mean_ms": 1641.2949343708772,
+        "median_ms": 423.52016700897366,
+        "std_ms": 1655.7207585290716,
+        "min_ms": 192.52495799446478,
+        "max_ms": 6465.8822499914095,
+        "p95_ms": 4187.860208697383
+      },
+      "router": {
+        "mean_ms": 264.458669191097
+      },
+      "embedding": {
+        "mean_ms": 1376.8333758473293
+      },
+      "cold_start": {
+        "first_page_ms": 26923.482957994565
+      },
+      "note": "Statistics exclude first page (cold start)"
+    }
+  },
+  "comparison": {
+    "our_mean_latency_ms": 1641.2949343708772,
+    "colpali_latency_ms": 400,
+    "speedup_factor": 0.2437100070337593,
+    "latency_reduction_percent": -310.3237335927193,
+    "meets_target": false,
+    "note": "ColPali baseline from published paper (GPU). Our system on M1 Pro with real ColPali model."
+  }
+}

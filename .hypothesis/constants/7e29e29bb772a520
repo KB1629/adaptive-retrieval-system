@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/finetuning/lora_trainer.py
+# hypothesis_version: 6.151.4
+
+[0.0001, 0.1, 100, '-', '.pt', 'LoRAConfig', '_metadata.json', 'batch_size', 'checkpoint-', 'checkpoint_info.json', 'checkpoint_interval', 'config', 'cuda', 'current_epoch', 'current_step', 'device', 'epoch', 'final_epoch', 'final_step', 'history', 'learning_rate', 'lora_alpha', 'lora_config.json', 'lora_dropout', 'lora_rank', 'model_name', 'num_epochs', 'output_dir', 'q_proj', 'r', 'step', 'target_modules', 'total_checkpoints', 'training_steps', 'v_proj', 'vidore/colpali', 'w']

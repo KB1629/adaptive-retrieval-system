@@ -1,0 +1,802 @@
+[
+  {
+    "page_id": 0,
+    "original_id": "49153",
+    "question": "What is the \u2018actual\u2019 value per 1000, during the year 1975?",
+    "width": 2257,
+    "height": 1764,
+    "path": "data/docvqa_sample/page_000.png"
+  },
+  {
+    "page_id": 1,
+    "original_id": "24580",
+    "question": "What is name of university?",
+    "width": 808,
+    "height": 1077,
+    "path": "data/docvqa_sample/page_001.png"
+  },
+  {
+    "page_id": 2,
+    "original_id": "57349",
+    "question": "What is the name of the company?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_002.png"
+  },
+  {
+    "page_id": 3,
+    "original_id": "24581",
+    "question": "Where is the university located ?",
+    "width": 808,
+    "height": 1077,
+    "path": "data/docvqa_sample/page_003.png"
+  },
+  {
+    "page_id": 4,
+    "original_id": "24582",
+    "question": "To whom is the document sent?",
+    "width": 808,
+    "height": 1077,
+    "path": "data/docvqa_sample/page_004.png"
+  },
+  {
+    "page_id": 5,
+    "original_id": "39079",
+    "question": "What the location address of NSDA?",
+    "width": 1370,
+    "height": 1480,
+    "path": "data/docvqa_sample/page_005.png"
+  },
+  {
+    "page_id": 6,
+    "original_id": "57357",
+    "question": "What is ITC's brand of Atta featured in the advertisement?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_006.png"
+  },
+  {
+    "page_id": 7,
+    "original_id": "24426",
+    "question": "What is the name of foundation?",
+    "width": 1750,
+    "height": 2270,
+    "path": "data/docvqa_sample/page_007.png"
+  },
+  {
+    "page_id": 8,
+    "original_id": "49168",
+    "question": "What time is the \u2018coffee break\u2019?",
+    "width": 850,
+    "height": 1644,
+    "path": "data/docvqa_sample/page_008.png"
+  },
+  {
+    "page_id": 9,
+    "original_id": "24423",
+    "question": "According to budget request summary what is total amount of other expenses??",
+    "width": 1750,
+    "height": 2270,
+    "path": "data/docvqa_sample/page_009.png"
+  },
+  {
+    "page_id": 10,
+    "original_id": "49172",
+    "question": "Who is \u2018presiding\u2019 TRRF GENERAL SESSION (PART 1)?",
+    "width": 850,
+    "height": 1644,
+    "path": "data/docvqa_sample/page_010.png"
+  },
+  {
+    "page_id": 11,
+    "original_id": "57364",
+    "question": "What is the name of the choco fills advertised?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_011.png"
+  },
+  {
+    "page_id": 12,
+    "original_id": "57366",
+    "question": "What is the name of the fashion wear/clothing advertise",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_012.png"
+  },
+  {
+    "page_id": 13,
+    "original_id": "57368",
+    "question": "How many nomination committee meetings has Y. C. Deveshwar attended?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_013.png"
+  },
+  {
+    "page_id": 14,
+    "original_id": "49177",
+    "question": "What time is \u2018question and answers \u2018session?",
+    "width": 850,
+    "height": 1644,
+    "path": "data/docvqa_sample/page_014.png"
+  },
+  {
+    "page_id": 15,
+    "original_id": "57370",
+    "question": "How many nomination committee meetings has S. Banerjee attended?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_015.png"
+  },
+  {
+    "page_id": 16,
+    "original_id": "57371",
+    "question": "What is the 'no. of persons present' for the sustainability committee meeting held on 5th April, 2012?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_016.png"
+  },
+  {
+    "page_id": 17,
+    "original_id": "57372",
+    "question": "What is the committee strength for the sustainability committee meeting held on 5th April, 2012?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_017.png"
+  },
+  {
+    "page_id": 18,
+    "original_id": "49181",
+    "question": "What session is at 2.00 to 5.00p.m.?",
+    "width": 850,
+    "height": 1644,
+    "path": "data/docvqa_sample/page_018.png"
+  },
+  {
+    "page_id": 19,
+    "original_id": "57373",
+    "question": "How many sustainability committee meetings has Y. C. Deveshwar attended?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_019.png"
+  },
+  {
+    "page_id": 20,
+    "original_id": "57374",
+    "question": "What is the name of the company?",
+    "width": 1679,
+    "height": 2340,
+    "path": "data/docvqa_sample/page_020.png"
+  },
+  {
+    "page_id": 21,
+    "original_id": "57375",
+    "question": "Where is the company located?",
+    "width": 1679,
+    "height": 2340,
+    "path": "data/docvqa_sample/page_021.png"
+  },
+  {
+    "page_id": 22,
+    "original_id": "57376",
+    "question": "What is the % of raw material imported in the current year?",
+    "width": 1679,
+    "height": 2340,
+    "path": "data/docvqa_sample/page_022.png"
+  },
+  {
+    "page_id": 23,
+    "original_id": "49187",
+    "question": "What time is \u201cintroductory remarks\u201d session?",
+    "width": 850,
+    "height": 1644,
+    "path": "data/docvqa_sample/page_023.png"
+  },
+  {
+    "page_id": 24,
+    "original_id": "16424",
+    "question": "Why Taco Bell's strong consumer base decreased?",
+    "width": 2156,
+    "height": 1695,
+    "path": "data/docvqa_sample/page_024.png"
+  },
+  {
+    "page_id": 25,
+    "original_id": "57386",
+    "question": "What is the % of raw material imported in the previous year?",
+    "width": 1679,
+    "height": 2340,
+    "path": "data/docvqa_sample/page_025.png"
+  },
+  {
+    "page_id": 26,
+    "original_id": "57387",
+    "question": "What is the % value of indigenous raw material in the current year?",
+    "width": 1679,
+    "height": 2340,
+    "path": "data/docvqa_sample/page_026.png"
+  },
+  {
+    "page_id": 27,
+    "original_id": "57388",
+    "question": "What is the % value of indigenous raw material in the previous year?",
+    "width": 1679,
+    "height": 2340,
+    "path": "data/docvqa_sample/page_027.png"
+  },
+  {
+    "page_id": 28,
+    "original_id": "16429",
+    "question": "What is the name of the Dealer ?",
+    "width": 1695,
+    "height": 2200,
+    "path": "data/docvqa_sample/page_028.png"
+  },
+  {
+    "page_id": 29,
+    "original_id": "16430",
+    "question": "What is the page no mentioned in this document?",
+    "width": 2156,
+    "height": 1695,
+    "path": "data/docvqa_sample/page_029.png"
+  },
+  {
+    "page_id": 30,
+    "original_id": "57391",
+    "question": "What is the name of the company?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_030.png"
+  },
+  {
+    "page_id": 31,
+    "original_id": "57395",
+    "question": "Where is the ITC Life Sciences and Technology Centre?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_031.png"
+  },
+  {
+    "page_id": 32,
+    "original_id": "16437",
+    "question": "How many grass/straw pieces of matter is found in the core samples ?",
+    "width": 1695,
+    "height": 2200,
+    "path": "data/docvqa_sample/page_032.png"
+  },
+  {
+    "page_id": 33,
+    "original_id": "16440",
+    "question": "How many lint/string pieces of matter is found in the core samples ?",
+    "width": 1695,
+    "height": 2200,
+    "path": "data/docvqa_sample/page_033.png"
+  },
+  {
+    "page_id": 34,
+    "original_id": "57402",
+    "question": "Who was the director having the highest number of options ?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_034.png"
+  },
+  {
+    "page_id": 35,
+    "original_id": "57403",
+    "question": "What is the no. of options held by S. H. Khan?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_035.png"
+  },
+  {
+    "page_id": 36,
+    "original_id": "57404",
+    "question": "What is the no. of Ordinary shares held by Y. C. Deveshwar?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_036.png"
+  },
+  {
+    "page_id": 37,
+    "original_id": "16444",
+    "question": "What percentage of smokers feel the need to find more excitement and sensation in life?",
+    "width": 2159,
+    "height": 1695,
+    "path": "data/docvqa_sample/page_037.png"
+  },
+  {
+    "page_id": 38,
+    "original_id": "57407",
+    "question": "What is the no. of Ordinary shares held by N. Anand?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_038.png"
+  },
+  {
+    "page_id": 39,
+    "original_id": "16447",
+    "question": "What percentage of non-smokers feel the need to restore romance and mystery to modern life?",
+    "width": 2159,
+    "height": 1695,
+    "path": "data/docvqa_sample/page_039.png"
+  },
+  {
+    "page_id": 40,
+    "original_id": "57409",
+    "question": "What is the name of the company?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_040.png"
+  },
+  {
+    "page_id": 41,
+    "original_id": "16450",
+    "question": "What is the title of the document ?",
+    "width": 2162,
+    "height": 1695,
+    "path": "data/docvqa_sample/page_041.png"
+  },
+  {
+    "page_id": 42,
+    "original_id": "57410",
+    "question": "What is the year mentioned at the top of the page?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_042.png"
+  },
+  {
+    "page_id": 43,
+    "original_id": "57411",
+    "question": "How many 'energetic and popular brands' has ITC created?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_043.png"
+  },
+  {
+    "page_id": 44,
+    "original_id": "57413",
+    "question": "Name the 4 significant personal care brands of ITC?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_044.png"
+  },
+  {
+    "page_id": 45,
+    "original_id": "57414",
+    "question": "What are the 2 educational/stationary brands of ITC?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_045.png"
+  },
+  {
+    "page_id": 46,
+    "original_id": "57415",
+    "question": "What are the 2 lifestyle & apparel brands of ITC?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_046.png"
+  },
+  {
+    "page_id": 47,
+    "original_id": "57416",
+    "question": "What is the name of the ITC Agarbatti brand?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_047.png"
+  },
+  {
+    "page_id": 48,
+    "original_id": "57417",
+    "question": "What is the name of ITC's matches brand?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_048.png"
+  },
+  {
+    "page_id": 49,
+    "original_id": "57418",
+    "question": "What is the 'credo' of ITC Hotels?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_049.png"
+  },
+  {
+    "page_id": 50,
+    "original_id": "24437",
+    "question": "What is cost of liquid nitrogen",
+    "width": 1695,
+    "height": 1553,
+    "path": "data/docvqa_sample/page_050.png"
+  },
+  {
+    "page_id": 51,
+    "original_id": "24438",
+    "question": "What is cost of chemicals and supplies?",
+    "width": 1695,
+    "height": 1553,
+    "path": "data/docvqa_sample/page_051.png"
+  },
+  {
+    "page_id": 52,
+    "original_id": "16455",
+    "question": "What percentage of non-smokers feel there should be less emphasis on money in our seciety?",
+    "width": 2159,
+    "height": 1695,
+    "path": "data/docvqa_sample/page_052.png"
+  },
+  {
+    "page_id": 53,
+    "original_id": "16456",
+    "question": "What is the main title of this document?",
+    "width": 2159,
+    "height": 1695,
+    "path": "data/docvqa_sample/page_053.png"
+  },
+  {
+    "page_id": 54,
+    "original_id": "16463",
+    "question": "What is the page no mentioned in this document?",
+    "width": 2159,
+    "height": 1695,
+    "path": "data/docvqa_sample/page_054.png"
+  },
+  {
+    "page_id": 55,
+    "original_id": "49234",
+    "question": "Which college's name is specified in the logo?",
+    "width": 1748,
+    "height": 2236,
+    "path": "data/docvqa_sample/page_055.png"
+  },
+  {
+    "page_id": 56,
+    "original_id": "57428",
+    "question": "Which branch of Scissors has been launched on Kerala and Tamil Nadu?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_056.png"
+  },
+  {
+    "page_id": 57,
+    "original_id": "24440",
+    "question": "What is date?",
+    "width": 1695,
+    "height": 1553,
+    "path": "data/docvqa_sample/page_057.png"
+  },
+  {
+    "page_id": 58,
+    "original_id": "16468",
+    "question": "What percentage of non-smokers feel the need to find more excitement and sensation in life?",
+    "width": 2159,
+    "height": 1695,
+    "path": "data/docvqa_sample/page_058.png"
+  },
+  {
+    "page_id": 59,
+    "original_id": "57431",
+    "question": "What is the tagline with 'Wendell Rodricks' name?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_059.png"
+  },
+  {
+    "page_id": 60,
+    "original_id": "16473",
+    "question": "What is the page no mentioned in this document?",
+    "width": 2164,
+    "height": 1695,
+    "path": "data/docvqa_sample/page_060.png"
+  },
+  {
+    "page_id": 61,
+    "original_id": "49242",
+    "question": "Who supported the workshop?",
+    "width": 1748,
+    "height": 2236,
+    "path": "data/docvqa_sample/page_061.png"
+  },
+  {
+    "page_id": 62,
+    "original_id": "57439",
+    "question": "What is written in the picture of title 'John Players Jeans'?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_062.png"
+  },
+  {
+    "page_id": 63,
+    "original_id": "57440",
+    "question": "In which states the brand 'Royal Special Filter' has been launched?",
+    "width": 1653,
+    "height": 2339,
+    "path": "data/docvqa_sample/page_063.png"
+  },
+  {
+    "page_id": 64,
+    "original_id": "32870",
+    "question": "How many children were found to be unsatisfactory for study and returned ?",
+    "width": 1685,
+    "height": 2191,
+    "path": "data/docvqa_sample/page_064.png"
+  },
+  {
+    "page_id": 65,
+    "original_id": "32871",
+    "question": "What was Final Wt of the child who had an initial Wt of 61.5 lbs ?",
+    "width": 1685,
+    "height": 2191,
+    "path": "data/docvqa_sample/page_065.png"
+  },
+  {
+    "page_id": 66,
+    "original_id": "32872",
+    "question": "How many days were the subject J.W. on baseline diet ?",
+    "width": 1685,
+    "height": 2191,
+    "path": "data/docvqa_sample/page_066.png"
+  },
+  {
+    "page_id": 67,
+    "original_id": "32873",
+    "question": "How many days were the subject J.W. on dilution ?",
+    "width": 1685,
+    "height": 2191,
+    "path": "data/docvqa_sample/page_067.png"
+  },
+  {
+    "page_id": 68,
+    "original_id": "32874",
+    "question": "What is the age of subject B.L. ?",
+    "width": 1685,
+    "height": 2191,
+    "path": "data/docvqa_sample/page_068.png"
+  },
+  {
+    "page_id": 69,
+    "original_id": "32875",
+    "question": "What was the initial wt. of subject C.R. ?",
+    "width": 1685,
+    "height": 2191,
+    "path": "data/docvqa_sample/page_069.png"
+  },
+  {
+    "page_id": 70,
+    "original_id": "32876",
+    "question": "What was the final wt. of subject S.D. ?",
+    "width": 1685,
+    "height": 2191,
+    "path": "data/docvqa_sample/page_070.png"
+  },
+  {
+    "page_id": 71,
+    "original_id": "32877",
+    "question": "How many rats were were fed the control diet?",
+    "width": 1791,
+    "height": 2289,
+    "path": "data/docvqa_sample/page_071.png"
+  },
+  {
+    "page_id": 72,
+    "original_id": "32878",
+    "question": "For how long were the rats on control diet ?",
+    "width": 1791,
+    "height": 2289,
+    "path": "data/docvqa_sample/page_072.png"
+  },
+  {
+    "page_id": 73,
+    "original_id": "32879",
+    "question": "From which vein was whole blood drawn for the determination of serum cholesterol ?",
+    "width": 1791,
+    "height": 2289,
+    "path": "data/docvqa_sample/page_073.png"
+  },
+  {
+    "page_id": 74,
+    "original_id": "57449",
+    "question": "What is the name of the company?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_074.png"
+  },
+  {
+    "page_id": 75,
+    "original_id": "32881",
+    "question": "What was the diet fed to the #1 group ?",
+    "width": 1791,
+    "height": 2289,
+    "path": "data/docvqa_sample/page_075.png"
+  },
+  {
+    "page_id": 76,
+    "original_id": "32882",
+    "question": "What was the cholesterol by the 4th wk for #1 rats?",
+    "width": 1791,
+    "height": 2289,
+    "path": "data/docvqa_sample/page_076.png"
+  },
+  {
+    "page_id": 77,
+    "original_id": "32883",
+    "question": "Who has prepared the directory of services?",
+    "width": 1788,
+    "height": 2286,
+    "path": "data/docvqa_sample/page_077.png"
+  },
+  {
+    "page_id": 78,
+    "original_id": "57452",
+    "question": "What is the name on the building in the last picture?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_078.png"
+  },
+  {
+    "page_id": 79,
+    "original_id": "32885",
+    "question": "What is the population in the county 'Scott' ?",
+    "width": 2284,
+    "height": 1786,
+    "path": "data/docvqa_sample/page_079.png"
+  },
+  {
+    "page_id": 80,
+    "original_id": "32886",
+    "question": "What % of families are in poverty in the county 'Stoddard' ?",
+    "width": 2284,
+    "height": 1786,
+    "path": "data/docvqa_sample/page_080.png"
+  },
+  {
+    "page_id": 81,
+    "original_id": "57454",
+    "question": "What type of financial information of ITC Ltd. is this?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_081.png"
+  },
+  {
+    "page_id": 82,
+    "original_id": "49263",
+    "question": "What is the service provided by 'Container Services' for the frozen shipments from west coast to Hawaii ?",
+    "width": 1768,
+    "height": 2266,
+    "path": "data/docvqa_sample/page_082.png"
+  },
+  {
+    "page_id": 83,
+    "original_id": "32889",
+    "question": "How many public assistance recipients in the county Lawrence?",
+    "width": 2284,
+    "height": 1786,
+    "path": "data/docvqa_sample/page_083.png"
+  },
+  {
+    "page_id": 84,
+    "original_id": "32890",
+    "question": "What is the population in the 'Newton' county ?",
+    "width": 2284,
+    "height": 1786,
+    "path": "data/docvqa_sample/page_084.png"
+  },
+  {
+    "page_id": 85,
+    "original_id": "32891",
+    "question": "As per NIH's belief, who are the persons most capable of evaluating a scientific field?",
+    "width": 3238,
+    "height": 2136,
+    "path": "data/docvqa_sample/page_085.png"
+  },
+  {
+    "page_id": 86,
+    "original_id": "32892",
+    "question": "Who was the chief of the scientific evaluation section?",
+    "width": 3238,
+    "height": 2136,
+    "path": "data/docvqa_sample/page_086.png"
+  },
+  {
+    "page_id": 87,
+    "original_id": "32893",
+    "question": "Who was the Associate director for research analysis and evaluation then?",
+    "width": 3238,
+    "height": 2136,
+    "path": "data/docvqa_sample/page_087.png"
+  },
+  {
+    "page_id": 88,
+    "original_id": "32894",
+    "question": "how many conferences were held in the fall of 1968 ?",
+    "width": 3238,
+    "height": 2136,
+    "path": "data/docvqa_sample/page_088.png"
+  },
+  {
+    "page_id": 89,
+    "original_id": "49274",
+    "question": "Who is the new manager for  Edinburg Ice and Cold Storage ?",
+    "width": 1768,
+    "height": 2266,
+    "path": "data/docvqa_sample/page_089.png"
+  },
+  {
+    "page_id": 90,
+    "original_id": "32896",
+    "question": "What is the subject of the memorandum ?",
+    "width": 1784,
+    "height": 2284,
+    "path": "data/docvqa_sample/page_090.png"
+  },
+  {
+    "page_id": 91,
+    "original_id": "32897",
+    "question": "TO whom is the memorandum addressed ?",
+    "width": 1784,
+    "height": 2284,
+    "path": "data/docvqa_sample/page_091.png"
+  },
+  {
+    "page_id": 92,
+    "original_id": "32898",
+    "question": "Who has sent the memorandum ?",
+    "width": 1784,
+    "height": 2284,
+    "path": "data/docvqa_sample/page_092.png"
+  },
+  {
+    "page_id": 93,
+    "original_id": "57475",
+    "question": "What is the brand name of the chips/snacks produced by ITC?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_093.png"
+  },
+  {
+    "page_id": 94,
+    "original_id": "32900",
+    "question": "Where is the meeting of the steering committee planned at ?",
+    "width": 1784,
+    "height": 2284,
+    "path": "data/docvqa_sample/page_094.png"
+  },
+  {
+    "page_id": 95,
+    "original_id": "57476",
+    "question": "What is the brand name of the tofee/candy confectioneries produced by ITC?",
+    "width": 1701,
+    "height": 2386,
+    "path": "data/docvqa_sample/page_095.png"
+  },
+  {
+    "page_id": 96,
+    "original_id": "49279",
+    "question": "What is the title in the last rectangle ?",
+    "width": 1768,
+    "height": 2266,
+    "path": "data/docvqa_sample/page_096.png"
+  },
+  {
+    "page_id": 97,
+    "original_id": "49285",
+    "question": "What is the title in the first rectangle ?",
+    "width": 1768,
+    "height": 2266,
+    "path": "data/docvqa_sample/page_097.png"
+  },
+  {
+    "page_id": 98,
+    "original_id": "49292",
+    "question": "Which company has vacancies to the post of general manager and operating engineer?",
+    "width": 1768,
+    "height": 2266,
+    "path": "data/docvqa_sample/page_098.png"
+  },
+  {
+    "page_id": 99,
+    "original_id": "16529",
+    "question": "What is the title of the document ?",
+    "width": 1711,
+    "height": 2289,
+    "path": "data/docvqa_sample/page_099.png"
+  }
+]

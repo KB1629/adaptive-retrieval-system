@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/models/config.py
+# hypothesis_version: 6.151.4
+
+[0.0, 0.3, 0.7, 'ExperimentConfig', 'ExperimentResult', 'batch_size', 'completed_at', 'config', 'created_at', 'dataset_name', 'experiment_id', 'heuristic', 'image_area_threshold', 'lancedb', 'latency', 'lora_weights_path', 'metrics', 'ml', 'notes', 'qdrant', 'random_seed', 'router_accuracy', 'router_type', 'text_model', 'top_k', 'vector_db_backend', 'vision_model', 'w']

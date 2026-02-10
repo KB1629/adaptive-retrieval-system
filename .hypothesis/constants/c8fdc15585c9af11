@@ -1,0 +1,4 @@
+# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/embedding/text_path.py
+# hypothesis_version: 6.151.4
+
+[1000, 'embedder', 'escalate_on_failure', 'extractor', 'min_text_length', 'preserve_structure', 'text-heavy']

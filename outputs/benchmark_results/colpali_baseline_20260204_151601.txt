@@ -1,0 +1,43 @@
+
+======================================================================
+PURE COLPALI BASELINE - BENCHMARK REPORT
+======================================================================
+
+Generated: 2026-02-04T15:10:50.057020
+Device: DeviceType.MPS (Apple Silicon (MPS))
+Dataset: DocVQA (ViDoRe benchmark)
+Model: Pure ColPali v1.2 (NO adaptive routing)
+
+======================================================================
+METHODOLOGY
+======================================================================
+
+- Pure ColPali v1.2 (vidore/colpali-v1.2)
+- NO adaptive routing - ALL pages processed with ColPali
+- Hardware: Apple Silicon (MPS)
+- Pages: 100 real DocVQA documents
+
+======================================================================
+LATENCY MEASUREMENTS (Pure ColPali)
+======================================================================
+
+Cold Start (First Page):
+  First Page: 27547.14 ms (includes model loading)
+
+Steady-State Latency (excluding cold start):
+  Mean:   2820.56 ms
+  Median: 2965.91 ms
+  Std:    558.90 ms
+  Min:    1986.65 ms
+  Max:    3764.74 ms
+  P95:    3523.09 ms
+
+======================================================================
+SUMMARY
+======================================================================
+
+Pure ColPali on M1 Pro: 2820.56 ms/page (average)
+
+This is the baseline to compare against our adaptive system.
+
+======================================================================

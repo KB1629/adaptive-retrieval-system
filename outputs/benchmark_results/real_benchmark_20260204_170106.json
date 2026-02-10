@@ -1,0 +1,1811 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-04T16:57:20.135289",
+    "device": "DeviceType.MPS",
+    "hardware_info": {
+      "device_name": "Apple Silicon (MPS)",
+      "max_memory_gb": 8.0
+    },
+    "dataset": "DocVQA (ViDoRe benchmark)",
+    "model": "ColPali v1.2"
+  },
+  "colpali_baseline": {
+    "latency_ms_per_page": 400,
+    "source": "ColPali paper (arXiv:2407.01449)",
+    "note": "Measured on GPU, our M1 Pro comparison is conservative"
+  },
+  "adaptive_system": {
+    "pages_processed": 100,
+    "per_page_results": [
+      {
+        "page_index": 0,
+        "page_size": "2257x1764",
+        "source_doc": "0",
+        "timings": {
+          "router_ms": 216.33570900303312,
+          "embedding_ms": 31317.226916988147
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5088290527470848
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 31533.577834023163,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 1,
+        "page_size": "808x1077",
+        "source_doc": "1",
+        "timings": {
+          "router_ms": 64.27575001725927,
+          "embedding_ms": 3301.445834018523
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.6995786389021746
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3365.7259580213577,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 2,
+        "page_size": "1701x2386",
+        "source_doc": "2",
+        "timings": {
+          "router_ms": 302.48412501532584,
+          "embedding_ms": 2403.696207999019
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5149002913801086
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2706.1823749972973,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 3,
+        "page_size": "808x1077",
+        "source_doc": "3",
+        "timings": {
+          "router_ms": 56.26429198309779,
+          "embedding_ms": 2000.839749991428
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.6995786389021746
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2057.1069580037147,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 4,
+        "page_size": "808x1077",
+        "source_doc": "4",
+        "timings": {
+          "router_ms": 74.13975000963546,
+          "embedding_ms": 2011.6750829911325
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.6995786389021746
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2085.8177920163143,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 5,
+        "page_size": "1370x1480",
+        "source_doc": "5",
+        "timings": {
+          "router_ms": 150.48691700212657,
+          "embedding_ms": 2012.9965420055669
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5037069863906066
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2163.486000004923,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 6,
+        "page_size": "1701x2386",
+        "source_doc": "6",
+        "timings": {
+          "router_ms": 270.3821250179317,
+          "embedding_ms": 2027.2116660198662
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5149002913801086
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2297.5961670163088,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 7,
+        "page_size": "1750x2270",
+        "source_doc": "7",
+        "timings": {
+          "router_ms": 232.56812497857027,
+          "embedding_ms": 8587.376000010408
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5275809390754358
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 8819.948207994457,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 8,
+        "page_size": "850x1644",
+        "source_doc": "8",
+        "timings": {
+          "router_ms": 80.16354200663045,
+          "embedding_ms": 4102.250166004524
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5602112079880297
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4182.414999988396,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 9,
+        "page_size": "1750x2270",
+        "source_doc": "9",
+        "timings": {
+          "router_ms": 236.91654202411883,
+          "embedding_ms": 0.4425420193001628
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5275809390754358
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 237.36066700075753,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 10,
+        "page_size": "850x1644",
+        "source_doc": "10",
+        "timings": {
+          "router_ms": 310.55595801444724,
+          "embedding_ms": 3686.0860000015236
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5602112079880297
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3996.644833998289,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 11,
+        "page_size": "1701x2386",
+        "source_doc": "11",
+        "timings": {
+          "router_ms": 255.55349999922328,
+          "embedding_ms": 3385.3158749989234
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5149002913801086
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3640.8717909944244,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 12,
+        "page_size": "1701x2386",
+        "source_doc": "12",
+        "timings": {
+          "router_ms": 437.6533339964226,
+          "embedding_ms": 3542.439832992386
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5149002913801086
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3980.095250008162,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 13,
+        "page_size": "1653x2339",
+        "source_doc": "13",
+        "timings": {
+          "router_ms": 254.458083974896,
+          "embedding_ms": 3276.649833016563
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5113578624082735
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3531.1099169775844,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 14,
+        "page_size": "850x1644",
+        "source_doc": "14",
+        "timings": {
+          "router_ms": 100.74745898600668,
+          "embedding_ms": 3100.2959579927847
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5602112079880297
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3201.0455839917995,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 15,
+        "page_size": "1653x2339",
+        "source_doc": "15",
+        "timings": {
+          "router_ms": 279.444916988723,
+          "embedding_ms": 3961.1394579987973
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5113578624082735
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4240.586083004018,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 16,
+        "page_size": "1653x2339",
+        "source_doc": "16",
+        "timings": {
+          "router_ms": 377.3578330001328,
+          "embedding_ms": 3784.591082978295
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5113578624082735
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4161.953415983589,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 17,
+        "page_size": "1653x2339",
+        "source_doc": "17",
+        "timings": {
+          "router_ms": 245.41712499922141,
+          "embedding_ms": 3137.080500018783
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5113578624082735
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3382.499083003495,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 18,
+        "page_size": "850x1644",
+        "source_doc": "18",
+        "timings": {
+          "router_ms": 86.37720797560178,
+          "embedding_ms": 4009.021666017361
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5602112079880297
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4095.4350419924594,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 19,
+        "page_size": "1653x2339",
+        "source_doc": "19",
+        "timings": {
+          "router_ms": 241.2549169966951,
+          "embedding_ms": 3636.8872500024736
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5113578624082735
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3878.1452090188395,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 20,
+        "page_size": "1679x2340",
+        "source_doc": "20",
+        "timings": {
+          "router_ms": 330.45462501468137,
+          "embedding_ms": 0.48829198931343853
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 330.9446659986861,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 21,
+        "page_size": "1679x2340",
+        "source_doc": "21",
+        "timings": {
+          "router_ms": 257.2372500144411,
+          "embedding_ms": 0.13991599553264678
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 257.37850001314655,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 22,
+        "page_size": "1679x2340",
+        "source_doc": "22",
+        "timings": {
+          "router_ms": 417.78187500312924,
+          "embedding_ms": 3.682042006403208
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 421.46599999978207,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 23,
+        "page_size": "850x1644",
+        "source_doc": "23",
+        "timings": {
+          "router_ms": 146.5334999957122,
+          "embedding_ms": 3658.3670410036575
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5602112079880297
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3804.9038340104744,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 24,
+        "page_size": "2156x1695",
+        "source_doc": "24",
+        "timings": {
+          "router_ms": 323.24041600804776,
+          "embedding_ms": 0.4572920151986182
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5719693607295947
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 323.69962500524707,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 25,
+        "page_size": "1679x2340",
+        "source_doc": "25",
+        "timings": {
+          "router_ms": 420.7910409895703,
+          "embedding_ms": 0.302250002278015
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 421.09558297670446,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 26,
+        "page_size": "1679x2340",
+        "source_doc": "26",
+        "timings": {
+          "router_ms": 511.9156670116354,
+          "embedding_ms": 1.1990000202786177
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 513.1169579981361,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 27,
+        "page_size": "1679x2340",
+        "source_doc": "27",
+        "timings": {
+          "router_ms": 253.9952090010047,
+          "embedding_ms": 0.13787500211037695
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.522468117006707
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 254.1346249927301,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 28,
+        "page_size": "1695x2200",
+        "source_doc": "28",
+        "timings": {
+          "router_ms": 188.2542499806732,
+          "embedding_ms": 0.15100001473911107
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5302067528043402
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 188.40654200175777,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 29,
+        "page_size": "2156x1695",
+        "source_doc": "29",
+        "timings": {
+          "router_ms": 190.11887500528246,
+          "embedding_ms": 0.14337501488626003
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5719693607295947
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 190.26366699836217,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 30,
+        "page_size": "1701x2386",
+        "source_doc": "30",
+        "timings": {
+          "router_ms": 229.97333301464096,
+          "embedding_ms": 0.1483329979237169
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5007275317106249
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 230.12287501478568,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 31,
+        "page_size": "1701x2386",
+        "source_doc": "31",
+        "timings": {
+          "router_ms": 227.54045799956657,
+          "embedding_ms": 0.1797500008251518
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5007275317106249
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 227.72154200356454,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 32,
+        "page_size": "1695x2200",
+        "source_doc": "32",
+        "timings": {
+          "router_ms": 199.9661249865312,
+          "embedding_ms": 0.144041987368837
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5302067528043402
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 200.1115829916671,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 33,
+        "page_size": "1695x2200",
+        "source_doc": "33",
+        "timings": {
+          "router_ms": 192.86404101876542,
+          "embedding_ms": 0.13249999028630555
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5302067528043402
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 192.99770801444538,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 34,
+        "page_size": "1653x2339",
+        "source_doc": "34",
+        "timings": {
+          "router_ms": 205.96495899371803,
+          "embedding_ms": 3789.1797090123873
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5257875467890839
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3995.1477499853354,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 35,
+        "page_size": "1653x2339",
+        "source_doc": "35",
+        "timings": {
+          "router_ms": 229.98679100419395,
+          "embedding_ms": 3762.60899999761
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5257875467890839
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3992.59845900815,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 36,
+        "page_size": "1653x2339",
+        "source_doc": "36",
+        "timings": {
+          "router_ms": 332.93437500833534,
+          "embedding_ms": 3560.7530839915853
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5257875467890839
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3893.696874991292,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 37,
+        "page_size": "2159x1695",
+        "source_doc": "37",
+        "timings": {
+          "router_ms": 272.8925420087762,
+          "embedding_ms": 1.4165829925332218
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 274.31108299060725,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 38,
+        "page_size": "1653x2339",
+        "source_doc": "38",
+        "timings": {
+          "router_ms": 242.13462497573346,
+          "embedding_ms": 3745.9267910162453
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5257875467890839
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3988.0633749999106,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 39,
+        "page_size": "2159x1695",
+        "source_doc": "39",
+        "timings": {
+          "router_ms": 395.215916010784,
+          "embedding_ms": 0.48283301293849945
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 395.70904200081713,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 40,
+        "page_size": "1701x2386",
+        "source_doc": "40",
+        "timings": {
+          "router_ms": 239.2559580039233,
+          "embedding_ms": 0.25766598992049694
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 239.5153340185061,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 41,
+        "page_size": "2162x1695",
+        "source_doc": "41",
+        "timings": {
+          "router_ms": 231.87575000338256,
+          "embedding_ms": 0.1672500220593065
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5427760897615028
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 232.04491700744256,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 42,
+        "page_size": "1701x2386",
+        "source_doc": "42",
+        "timings": {
+          "router_ms": 224.40375000587665,
+          "embedding_ms": 0.1352079852949828
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 224.54054199624807,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 43,
+        "page_size": "1701x2386",
+        "source_doc": "43",
+        "timings": {
+          "router_ms": 222.27354100323282,
+          "embedding_ms": 0.14937500236555934
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 222.42416700464673,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 44,
+        "page_size": "1701x2386",
+        "source_doc": "44",
+        "timings": {
+          "router_ms": 236.890250002034,
+          "embedding_ms": 0.14270900283008814
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 237.03429198940285,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 45,
+        "page_size": "1701x2386",
+        "source_doc": "45",
+        "timings": {
+          "router_ms": 218.90958299627528,
+          "embedding_ms": 0.140791991725564
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 219.0511249937117,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 46,
+        "page_size": "1701x2386",
+        "source_doc": "46",
+        "timings": {
+          "router_ms": 217.94808300910518,
+          "embedding_ms": 0.13991701416671276
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 218.08937497553416,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 47,
+        "page_size": "1701x2386",
+        "source_doc": "47",
+        "timings": {
+          "router_ms": 213.75604197965004,
+          "embedding_ms": 0.14387498958967626
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 213.90112498193048,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 48,
+        "page_size": "1701x2386",
+        "source_doc": "48",
+        "timings": {
+          "router_ms": 210.3584579890594,
+          "embedding_ms": 0.1347090001218021
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 210.49408399267122,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 49,
+        "page_size": "1701x2386",
+        "source_doc": "49",
+        "timings": {
+          "router_ms": 219.4587499834597,
+          "embedding_ms": 0.1354999840259552
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5565094447192862
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 219.59558298112825,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 50,
+        "page_size": "1695x1553",
+        "source_doc": "50",
+        "timings": {
+          "router_ms": 162.51683299196884,
+          "embedding_ms": 3827.8587920067366
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529009395058158
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3990.378583985148,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 51,
+        "page_size": "1695x1553",
+        "source_doc": "51",
+        "timings": {
+          "router_ms": 184.12433299818076,
+          "embedding_ms": 3705.651208991185
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529009395058158
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3889.7770830080844,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 52,
+        "page_size": "2159x1695",
+        "source_doc": "52",
+        "timings": {
+          "router_ms": 354.7400420065969,
+          "embedding_ms": 1.1051660112570971
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 355.8468749979511,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 53,
+        "page_size": "2159x1695",
+        "source_doc": "53",
+        "timings": {
+          "router_ms": 263.82883300539106,
+          "embedding_ms": 0.14762498904019594
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 263.97787500172853,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 54,
+        "page_size": "2159x1695",
+        "source_doc": "54",
+        "timings": {
+          "router_ms": 213.18633397459053,
+          "embedding_ms": 0.22754198289476335
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 213.41537500848062,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 55,
+        "page_size": "1748x2236",
+        "source_doc": "55",
+        "timings": {
+          "router_ms": 206.1329160060268,
+          "embedding_ms": 0.14487499720416963
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5352718225665914
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 206.27945801243186,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 56,
+        "page_size": "1653x2339",
+        "source_doc": "56",
+        "timings": {
+          "router_ms": 238.32420801045373,
+          "embedding_ms": 3842.7108339965343
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529725380805845
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4081.0373749991413,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 57,
+        "page_size": "1695x1553",
+        "source_doc": "57",
+        "timings": {
+          "router_ms": 340.9116250113584,
+          "embedding_ms": 3913.9348339813296
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529009395058158
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4254.850708995946,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 58,
+        "page_size": "2159x1695",
+        "source_doc": "58",
+        "timings": {
+          "router_ms": 240.58149999473244,
+          "embedding_ms": 0.5876250215806067
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5404018027591445
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 241.17070800275542,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 59,
+        "page_size": "1653x2339",
+        "source_doc": "59",
+        "timings": {
+          "router_ms": 211.45912498468533,
+          "embedding_ms": 3123.374958988279
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529725380805845
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3334.8368750012014,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 60,
+        "page_size": "2164x1695",
+        "source_doc": "60",
+        "timings": {
+          "router_ms": 367.46345899882726,
+          "embedding_ms": 1.0317089909221977
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5668958371346857
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 368.4998750104569,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 61,
+        "page_size": "1748x2236",
+        "source_doc": "61",
+        "timings": {
+          "router_ms": 299.7195420030039,
+          "embedding_ms": 0.18033399828709662
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5352718225665914
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 299.90124999312684,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 62,
+        "page_size": "1653x2339",
+        "source_doc": "62",
+        "timings": {
+          "router_ms": 225.35787499509752,
+          "embedding_ms": 3707.330875011394
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529725380805845
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3932.691583002452,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 63,
+        "page_size": "1653x2339",
+        "source_doc": "63",
+        "timings": {
+          "router_ms": 407.7685000083875,
+          "embedding_ms": 3858.019292005338
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.529725380805845
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4265.796833991772,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 64,
+        "page_size": "1685x2191",
+        "source_doc": "64",
+        "timings": {
+          "router_ms": 342.6172919862438,
+          "embedding_ms": 4116.936499980511
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4459.564707998652,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 65,
+        "page_size": "1685x2191",
+        "source_doc": "65",
+        "timings": {
+          "router_ms": 240.17287502647378,
+          "embedding_ms": 3243.8292499864474
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3484.0049580088817,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 66,
+        "page_size": "1685x2191",
+        "source_doc": "66",
+        "timings": {
+          "router_ms": 287.48149998136796,
+          "embedding_ms": 2910.25487499428
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3197.738416987704,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 67,
+        "page_size": "1685x2191",
+        "source_doc": "67",
+        "timings": {
+          "router_ms": 256.45137499668635,
+          "embedding_ms": 3915.725166996708
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4172.182417009026,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 68,
+        "page_size": "1685x2191",
+        "source_doc": "68",
+        "timings": {
+          "router_ms": 296.3747090252582,
+          "embedding_ms": 3711.2280830042437
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4007.605416001752,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 69,
+        "page_size": "1685x2191",
+        "source_doc": "69",
+        "timings": {
+          "router_ms": 373.9197920076549,
+          "embedding_ms": 3515.5201250163373
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3889.4427079940215,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 70,
+        "page_size": "1685x2191",
+        "source_doc": "70",
+        "timings": {
+          "router_ms": 390.4523329983931,
+          "embedding_ms": 4018.637166998815
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5115390640304438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4409.114916983526,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 71,
+        "page_size": "1791x2289",
+        "source_doc": "71",
+        "timings": {
+          "router_ms": 533.1032499962021,
+          "embedding_ms": 0.8835000044200569
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5020473974790001
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 533.9906250010245,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 72,
+        "page_size": "1791x2289",
+        "source_doc": "72",
+        "timings": {
+          "router_ms": 344.6741249936167,
+          "embedding_ms": 0.16520899953320622
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5020473974790001
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 344.8410419805441,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 73,
+        "page_size": "1791x2289",
+        "source_doc": "73",
+        "timings": {
+          "router_ms": 260.9781670034863,
+          "embedding_ms": 0.1543340040370822
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5020473974790001
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 261.13387499935925,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 74,
+        "page_size": "1701x2386",
+        "source_doc": "74",
+        "timings": {
+          "router_ms": 280.237083992688,
+          "embedding_ms": 0.15216699102893472
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7604289100678366
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 280.3905000037048,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 75,
+        "page_size": "1791x2289",
+        "source_doc": "75",
+        "timings": {
+          "router_ms": 303.12262498773634,
+          "embedding_ms": 0.1420829794369638
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5020473974790001
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 303.2660420285538,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 76,
+        "page_size": "1791x2289",
+        "source_doc": "76",
+        "timings": {
+          "router_ms": 255.32045800355263,
+          "embedding_ms": 0.1420410117134452
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5020473974790001
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 255.46358301653527,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 77,
+        "page_size": "1788x2286",
+        "source_doc": "77",
+        "timings": {
+          "router_ms": 231.10116700991057,
+          "embedding_ms": 0.13420800678431988
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.524670475521678
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 231.23662499710917,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 78,
+        "page_size": "1701x2386",
+        "source_doc": "78",
+        "timings": {
+          "router_ms": 261.36587499058805,
+          "embedding_ms": 0.13687499449588358
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7604289100678366
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 261.5040829987265,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 79,
+        "page_size": "2284x1786",
+        "source_doc": "79",
+        "timings": {
+          "router_ms": 240.95829098951072,
+          "embedding_ms": 0.1400829933118075
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5005843077144447
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 241.09958298504353,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 80,
+        "page_size": "2284x1786",
+        "source_doc": "80",
+        "timings": {
+          "router_ms": 258.8238340103999,
+          "embedding_ms": 0.13800000306218863
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5005843077144447
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 258.9630830043461,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 81,
+        "page_size": "1701x2386",
+        "source_doc": "81",
+        "timings": {
+          "router_ms": 285.17958300653845,
+          "embedding_ms": 0.2742500219028443
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7604289100678366
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 285.4557090031449,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 82,
+        "page_size": "1768x2266",
+        "source_doc": "82",
+        "timings": {
+          "router_ms": 278.52045799954794,
+          "embedding_ms": 4310.048750019632
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5333073620205925
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4588.575958972797,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 83,
+        "page_size": "2284x1786",
+        "source_doc": "83",
+        "timings": {
+          "router_ms": 435.91545801609755,
+          "embedding_ms": 0.6923339969944209
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5005843077144447
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 436.60970899509266,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 84,
+        "page_size": "2284x1786",
+        "source_doc": "84",
+        "timings": {
+          "router_ms": 267.49783399282023,
+          "embedding_ms": 0.16295802197419107
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5005843077144447
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 267.66233300440945,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 85,
+        "page_size": "3238x2136",
+        "source_doc": "85",
+        "timings": {
+          "router_ms": 713.5536670102738,
+          "embedding_ms": 0.7001670019235462
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5046567250833175
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 714.2676250077784,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 86,
+        "page_size": "3238x2136",
+        "source_doc": "86",
+        "timings": {
+          "router_ms": 494.67049998929724,
+          "embedding_ms": 0.1670829951763153
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5046567250833175
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 494.83866698574275,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 87,
+        "page_size": "3238x2136",
+        "source_doc": "87",
+        "timings": {
+          "router_ms": 392.3206659965217,
+          "embedding_ms": 0.14479199307970703
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5046567250833175
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 392.46637499309145,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 88,
+        "page_size": "3238x2136",
+        "source_doc": "88",
+        "timings": {
+          "router_ms": 391.1649159854278,
+          "embedding_ms": 0.14141699648462236
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5046567250833175
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 391.30758299143054,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 89,
+        "page_size": "1768x2266",
+        "source_doc": "89",
+        "timings": {
+          "router_ms": 242.97758398461156,
+          "embedding_ms": 3836.492125003133
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5333073620205925
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4079.4712920032907,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 90,
+        "page_size": "1784x2284",
+        "source_doc": "90",
+        "timings": {
+          "router_ms": 751.8248750129715,
+          "embedding_ms": 0.5116669926792383
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.514786598218717
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 752.3426249972545,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 91,
+        "page_size": "1784x2284",
+        "source_doc": "91",
+        "timings": {
+          "router_ms": 285.92291701352224,
+          "embedding_ms": 0.13825000496581197
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.514786598218717
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 286.06233300524764,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 92,
+        "page_size": "1784x2284",
+        "source_doc": "92",
+        "timings": {
+          "router_ms": 233.44479201477952,
+          "embedding_ms": 0.15050001093186438
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.514786598218717
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 233.59695900580846,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 93,
+        "page_size": "1701x2386",
+        "source_doc": "93",
+        "timings": {
+          "router_ms": 281.2415000225883,
+          "embedding_ms": 0.8731250127311796
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5413832189112289
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 282.1167499932926,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 94,
+        "page_size": "1784x2284",
+        "source_doc": "94",
+        "timings": {
+          "router_ms": 275.3280829929281,
+          "embedding_ms": 0.14979200204834342
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.514786598218717
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 275.4793339991011,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 95,
+        "page_size": "1701x2386",
+        "source_doc": "95",
+        "timings": {
+          "router_ms": 227.40291699301451,
+          "embedding_ms": 0.14783398364670575
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.5413832189112289
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 227.55229100584984,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: PaddleOCR.predict() got an unexpected keyword argument 'cls'",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 96,
+        "page_size": "1768x2266",
+        "source_doc": "96",
+        "timings": {
+          "router_ms": 230.68391700508073,
+          "embedding_ms": 3818.060541001614
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5333073620205925
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4048.7478750001173,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 97,
+        "page_size": "1768x2266",
+        "source_doc": "97",
+        "timings": {
+          "router_ms": 274.8995829897467,
+          "embedding_ms": 3758.2730000140145
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5333073620205925
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4033.190582995303,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 98,
+        "page_size": "1768x2266",
+        "source_doc": "98",
+        "timings": {
+          "router_ms": 385.0623329926748,
+          "embedding_ms": 3828.3321249764413
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5333073620205925
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4213.396667008055,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 99,
+        "page_size": "1711x2289",
+        "source_doc": "99",
+        "timings": {
+          "router_ms": 468.6421249934938,
+          "embedding_ms": 3616.1630830029026
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.5250359595889584
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4084.814457979519,
+        "embedding_dim": 128,
+        "success": true
+      }
+    ],
+    "router_stats": {
+      "text_heavy": 57,
+      "visual_critical": 43
+    },
+    "latency_stats": {
+      "total": {
+        "mean_ms": 1845.8036801808942,
+        "median_ms": 421.46599999978207,
+        "std_ms": 1881.5916800214466,
+        "min_ms": 188.40654200175777,
+        "max_ms": 8819.948207994457,
+        "p95_ms": 4255.945321495528
+      },
+      "router": {
+        "mean_ms": 279.3025366263464
+      },
+      "embedding": {
+        "mean_ms": 1566.4977584556898
+      },
+      "cold_start": {
+        "first_page_ms": 31533.577834023163
+      },
+      "note": "Statistics exclude first page (cold start)"
+    }
+  },
+  "comparison": {
+    "our_mean_latency_ms": 1845.8036801808942,
+    "colpali_latency_ms": 400,
+    "speedup_factor": 0.21670777033059055,
+    "latency_reduction_percent": -361.45092004522354,
+    "meets_target": false,
+    "note": "ColPali baseline from published paper (GPU). Our system on M1 Pro with real ColPali model."
+  }
+}

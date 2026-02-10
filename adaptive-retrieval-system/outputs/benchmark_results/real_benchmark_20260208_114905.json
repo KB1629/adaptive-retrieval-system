@@ -1,0 +1,1758 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-08T11:45:20.195150",
+    "device": "DeviceType.MPS",
+    "hardware_info": {
+      "device_name": "Apple Silicon (MPS)",
+      "max_memory_gb": 8.0
+    },
+    "dataset": "DocVQA (ViDoRe benchmark)",
+    "model": "ColPali v1.2"
+  },
+  "colpali_baseline": {
+    "latency_ms_per_page": 400,
+    "source": "ColPali paper (arXiv:2407.01449)",
+    "note": "Measured on GPU, our M1 Pro comparison is conservative"
+  },
+  "adaptive_system": {
+    "pages_processed": 100,
+    "per_page_results": [
+      {
+        "page_index": 0,
+        "page_size": "2257x1764",
+        "source_doc": "49153",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 793.6069589923136
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.688769519329071
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 793.6117500066757,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 1,
+        "page_size": "808x1077",
+        "source_doc": "24580",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 601.8082080408931
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9323369264602661
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 601.8123339745216,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 2,
+        "page_size": "1701x2386",
+        "source_doc": "57349",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1144.0474579576403
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7570593953132629
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1144.0502919722348,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 3,
+        "page_size": "808x1077",
+        "source_doc": "24581",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 269.8472919873893
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9323369264602661
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 269.8507499881089,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 4,
+        "page_size": "808x1077",
+        "source_doc": "24582",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 243.93704201793298
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9323369264602661
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 243.94650000613183,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 5,
+        "page_size": "1370x1480",
+        "source_doc": "39079",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 886.3169999676757
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9361960887908936
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 886.3200829946436,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 6,
+        "page_size": "1701x2386",
+        "source_doc": "57357",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 958.5422090021893
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7570593953132629
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 958.5489590535872,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 7,
+        "page_size": "1750x2270",
+        "source_doc": "24426",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 29042.732000001706
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8679541945457458
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 29042.73458296666,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 8,
+        "page_size": "850x1644",
+        "source_doc": "49168",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2062.003042025026
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9378532767295837
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2062.005833024159,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 9,
+        "page_size": "1750x2270",
+        "source_doc": "24423",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2104.526417038869
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8679541945457458
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2104.5290840556845,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 10,
+        "page_size": "850x1644",
+        "source_doc": "49172",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2386.7096670437604
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9378532767295837
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2386.7110410355963,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 11,
+        "page_size": "1701x2386",
+        "source_doc": "57364",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 967.5469580106437
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7570593953132629
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 967.550957982894,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 12,
+        "page_size": "1701x2386",
+        "source_doc": "57366",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 959.337875014171
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7570593953132629
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 959.3410000088625,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 13,
+        "page_size": "1653x2339",
+        "source_doc": "57368",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1466.4446659735404
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.6224305629730225
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1466.4492079755291,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 14,
+        "page_size": "850x1644",
+        "source_doc": "49177",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2087.943084014114
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9378532767295837
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2087.94445899548,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 15,
+        "page_size": "1653x2339",
+        "source_doc": "57370",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1209.2507500201464
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.6224305629730225
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1209.25591600826,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 16,
+        "page_size": "1653x2339",
+        "source_doc": "57371",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1179.458209022414
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.6224305629730225
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1179.462041996885,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 17,
+        "page_size": "1653x2339",
+        "source_doc": "57372",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1238.4561250219122
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.6224305629730225
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1238.4594589821063,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 18,
+        "page_size": "850x1644",
+        "source_doc": "49181",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2100.7798750069924
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9378532767295837
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2100.7812499883585,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 19,
+        "page_size": "1653x2339",
+        "source_doc": "57373",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1260.001791990362
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.6224305629730225
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1260.0090830237605,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 20,
+        "page_size": "1679x2340",
+        "source_doc": "57374",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2777.11675001774
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9363086223602295
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2777.12258300744,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 21,
+        "page_size": "1679x2340",
+        "source_doc": "57375",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2147.106916992925
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9363086223602295
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2147.11120800348,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 22,
+        "page_size": "1679x2340",
+        "source_doc": "57376",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2122.0774589455687
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9363086223602295
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2122.0797080313787,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 23,
+        "page_size": "850x1644",
+        "source_doc": "49187",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2081.005209009163
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9378532767295837
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2081.01683401037,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 24,
+        "page_size": "2156x1695",
+        "source_doc": "16424",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2223.948707978707
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8792700171470642
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2223.9509159699082,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 25,
+        "page_size": "1679x2340",
+        "source_doc": "57386",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3138.642042002175
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9363086223602295
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3138.6490000295453,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 26,
+        "page_size": "1679x2340",
+        "source_doc": "57387",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2682.7169170137495
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9363086223602295
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2682.7374580316246,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 27,
+        "page_size": "1679x2340",
+        "source_doc": "57388",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2587.8229159861803
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9363086223602295
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2587.8294589929283,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 28,
+        "page_size": "1695x2200",
+        "source_doc": "16429",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 667.7265830221586
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9275069236755371
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 667.7313330001198,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 29,
+        "page_size": "2156x1695",
+        "source_doc": "16430",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2622.9639170342125
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8792700171470642
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2622.965959017165,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 30,
+        "page_size": "1701x2386",
+        "source_doc": "57391",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 749.8089169966988
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9121975302696228
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 749.8127919971012,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 31,
+        "page_size": "1701x2386",
+        "source_doc": "57395",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 718.9703339827247
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9121975302696228
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 718.9738749875687,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 32,
+        "page_size": "1695x2200",
+        "source_doc": "16437",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 512.5915000098757
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9275069236755371
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 512.5963339814916,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 33,
+        "page_size": "1695x2200",
+        "source_doc": "16440",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 516.7762500350364
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9275069236755371
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 516.7794160079211,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 34,
+        "page_size": "1653x2339",
+        "source_doc": "57402",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2119.9077920173295
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8842355012893677
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2119.910624984186,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 35,
+        "page_size": "1653x2339",
+        "source_doc": "57403",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3072.3665000405163
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8842355012893677
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3072.372833965346,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 36,
+        "page_size": "1653x2339",
+        "source_doc": "57404",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3427.7433329843916
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8842355012893677
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3427.7569580008276,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 37,
+        "page_size": "2159x1695",
+        "source_doc": "16444",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3380.5820420384407
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8866633772850037
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3380.5961670004763,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 38,
+        "page_size": "1653x2339",
+        "source_doc": "57407",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2928.5219999728724
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8842355012893677
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2928.5357919870876,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 39,
+        "page_size": "2159x1695",
+        "source_doc": "16447",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2739.4780419999734
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8866633772850037
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2739.491833955981,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 40,
+        "page_size": "1701x2386",
+        "source_doc": "57409",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1184.5893339486793
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.8749487400054932
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1184.5940420171246,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 41,
+        "page_size": "2162x1695",
+        "source_doc": "16450",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2758.0202919780277
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9489284753799438
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2758.0417090211995,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 42,
+        "page_size": "1701x2386",
+        "source_doc": "57410",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1084.127583017107
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.8749487400054932
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1084.1312080156058,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 43,
+        "page_size": "1701x2386",
+        "source_doc": "57411",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1083.5696249851026
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.8749487400054932
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1083.573250041809,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 44,
+        "page_size": "1701x2386",
+        "source_doc": "57413",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1046.3034159620292
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.8749487400054932
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1046.3074580184184,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 45,
+        "page_size": "1701x2386",
+        "source_doc": "57414",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1047.7322089718655
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.8749487400054932
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1047.7357909549028,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 46,
+        "page_size": "1701x2386",
+        "source_doc": "57415",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1050.6499169860035
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.8749487400054932
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1050.6548749981448,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 47,
+        "page_size": "1701x2386",
+        "source_doc": "57416",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1062.4258340103552
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.8749487400054932
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1062.430540972855,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 48,
+        "page_size": "1701x2386",
+        "source_doc": "57417",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1100.3974589984864
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.8749487400054932
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1100.401083996985,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 49,
+        "page_size": "1701x2386",
+        "source_doc": "57418",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1050.6511249695905
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.8749487400054932
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1050.6548330304213,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 50,
+        "page_size": "1695x1553",
+        "source_doc": "24437",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 890.2740000048652
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.6769140958786011
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 890.2775409515016,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 51,
+        "page_size": "1695x1553",
+        "source_doc": "24438",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 798.6180830048397
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.6769140958786011
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 798.6228750087321,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 52,
+        "page_size": "2159x1695",
+        "source_doc": "16455",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3274.878541997168
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8866633772850037
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3274.882166995667,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 53,
+        "page_size": "2159x1695",
+        "source_doc": "16456",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3149.8354579671286
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8866633772850037
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3149.854374991264,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 54,
+        "page_size": "2159x1695",
+        "source_doc": "16463",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2771.018583967816
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8866633772850037
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2771.0307500092313,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 55,
+        "page_size": "1748x2236",
+        "source_doc": "49234",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2625.01533300383
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.893917977809906
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2625.017583020963,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 56,
+        "page_size": "1653x2339",
+        "source_doc": "57428",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 345.9357090177946
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.935767650604248
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 345.9380829590373,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Extracted text too short (0 chars < 10)",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 57,
+        "page_size": "1695x1553",
+        "source_doc": "24440",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 843.8840410090052
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.6769140958786011
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 843.8915840233676,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 58,
+        "page_size": "2159x1695",
+        "source_doc": "16468",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2353.5288749844767
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8866633772850037
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2353.538417024538,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 59,
+        "page_size": "1653x2339",
+        "source_doc": "57431",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 357.25270799594
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.935767650604248
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 357.2563340421766,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Extracted text too short (0 chars < 10)",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 60,
+        "page_size": "2164x1695",
+        "source_doc": "16473",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3257.4511250131764
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.8565502166748047
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3257.452958030626,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 61,
+        "page_size": "1748x2236",
+        "source_doc": "49242",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 4226.727000030223
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.893917977809906
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4226.741958002094,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 62,
+        "page_size": "1653x2339",
+        "source_doc": "57439",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 346.66387498145923
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.935767650604248
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 346.6663329745643,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Extracted text too short (0 chars < 10)",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 63,
+        "page_size": "1653x2339",
+        "source_doc": "57440",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 378.5042080562562
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.935767650604248
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 378.50666599115357,
+        "embedding_error": "Text extraction failed, escalate to vision path: Text extraction failed: Extracted text too short (0 chars < 10)",
+        "embedding_dim": 0,
+        "success": false
+      },
+      {
+        "page_index": 64,
+        "page_size": "1685x2191",
+        "source_doc": "32870",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3294.39995798748
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9429382085800171
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3294.4272920140065,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 65,
+        "page_size": "1685x2191",
+        "source_doc": "32871",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 4994.348458014429
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9429382085800171
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4994.356291019358,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 66,
+        "page_size": "1685x2191",
+        "source_doc": "32872",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3689.051749999635
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9429382085800171
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3689.066124963574,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 67,
+        "page_size": "1685x2191",
+        "source_doc": "32873",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3043.9347089850344
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9429382085800171
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3043.950457999017,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 68,
+        "page_size": "1685x2191",
+        "source_doc": "32874",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 4245.044958021026
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9429382085800171
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 4245.072415971663,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 69,
+        "page_size": "1685x2191",
+        "source_doc": "32875",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 3661.0226670163684
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9429382085800171
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 3661.0293749836273,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 70,
+        "page_size": "1685x2191",
+        "source_doc": "32876",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2816.6046669939533
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9429382085800171
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2816.6072499589063,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 71,
+        "page_size": "1791x2289",
+        "source_doc": "32877",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2380.3407499799505
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9518877863883972
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2380.343750002794,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 72,
+        "page_size": "1791x2289",
+        "source_doc": "32878",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2147.0932500087656
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9518877863883972
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2147.0952089875937,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 73,
+        "page_size": "1791x2289",
+        "source_doc": "32879",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2197.811209014617
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9518877863883972
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2197.8122079744935,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 74,
+        "page_size": "1701x2386",
+        "source_doc": "57449",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 426.16720899241045
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9226886630058289
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 426.1707090190612,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 75,
+        "page_size": "1791x2289",
+        "source_doc": "32881",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2139.1814579837956
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9518877863883972
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2139.1823749872856,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 76,
+        "page_size": "1791x2289",
+        "source_doc": "32882",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2461.9593329844065
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9518877863883972
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2461.9645419879816,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 77,
+        "page_size": "1788x2286",
+        "source_doc": "32883",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2562.8334160428494
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9334328770637512
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2562.844624975696,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 78,
+        "page_size": "1701x2386",
+        "source_doc": "57452",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 357.625457982067
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9226886630058289
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 357.629458012525,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 79,
+        "page_size": "2284x1786",
+        "source_doc": "32885",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 756.3578329863958
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.32549574971199036
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 756.3620000146329,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 80,
+        "page_size": "2284x1786",
+        "source_doc": "32886",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 729.5819999999367
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.32549574971199036
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 729.5880420133471,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 81,
+        "page_size": "1701x2386",
+        "source_doc": "57454",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 390.3898329590447
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.9226886630058289
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 390.3954999987036,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 82,
+        "page_size": "1768x2266",
+        "source_doc": "49263",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1056.310707994271
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7822409868240356
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1056.3173749833368,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 83,
+        "page_size": "2284x1786",
+        "source_doc": "32889",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 740.3683330048807
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.32549574971199036
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 740.372083033435,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 84,
+        "page_size": "2284x1786",
+        "source_doc": "32890",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 775.1804170547985
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.32549574971199036
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 775.1887920312583,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 85,
+        "page_size": "3238x2136",
+        "source_doc": "32891",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2644.592707976699
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.7299396991729736
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2644.5940419798717,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 86,
+        "page_size": "3238x2136",
+        "source_doc": "32892",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2428.849874995649
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.7299396991729736
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2428.8545830058865,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 87,
+        "page_size": "3238x2136",
+        "source_doc": "32893",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2881.7650419659913
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.7299396991729736
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2881.7710000439547,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 88,
+        "page_size": "3238x2136",
+        "source_doc": "32894",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2408.778125012759
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.7299396991729736
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2408.779208024498,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 89,
+        "page_size": "1768x2266",
+        "source_doc": "49274",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1120.7086249487475
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7822409868240356
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1120.7117920275778,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 90,
+        "page_size": "1784x2284",
+        "source_doc": "32896",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2115.9924590028822
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.88723224401474
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2115.9941669902764,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 91,
+        "page_size": "1784x2284",
+        "source_doc": "32897",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2153.374249988701
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.88723224401474
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2153.3764170017093,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 92,
+        "page_size": "1784x2284",
+        "source_doc": "32898",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2381.9704999914393
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.88723224401474
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2381.9716660073027,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 93,
+        "page_size": "1701x2386",
+        "source_doc": "57475",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 439.1492500435561
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7869641184806824
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 439.1532919835299,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 94,
+        "page_size": "1784x2284",
+        "source_doc": "32900",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2119.377499970142
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.88723224401474
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2119.380290969275,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 95,
+        "page_size": "1701x2386",
+        "source_doc": "57476",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 406.2432909850031
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7869641184806824
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 406.24720795312896,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 96,
+        "page_size": "1768x2266",
+        "source_doc": "49279",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1032.555834040977
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7822409868240356
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1032.5597919872962,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 97,
+        "page_size": "1768x2266",
+        "source_doc": "49285",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1051.9658330013044
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7822409868240356
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1051.9711669767275,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 98,
+        "page_size": "1768x2266",
+        "source_doc": "49292",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 1007.9008749453351
+        },
+        "classification": {
+          "modality": "text-heavy",
+          "confidence": 0.7822409868240356
+        },
+        "embedding_path": "text",
+        "total_latency_ms": 1007.9055420355871,
+        "embedding_dim": 768,
+        "success": true
+      },
+      {
+        "page_index": 99,
+        "page_size": "1711x2289",
+        "source_doc": "16529",
+        "timings": {
+          "router_ms": 0.0,
+          "embedding_ms": 2115.255624987185
+        },
+        "classification": {
+          "modality": "visual-critical",
+          "confidence": 0.9567860960960388
+        },
+        "embedding_path": "vision",
+        "total_latency_ms": 2115.2635830221698,
+        "embedding_dim": 128,
+        "success": true
+      }
+    ],
+    "router_stats": {
+      "text_heavy": 49,
+      "visual_critical": 51
+    },
+    "latency_stats": {
+      "total": {
+        "mean_ms": 2067.1747066568573,
+        "median_ms": 2081.01683401037,
+        "std_ms": 2928.0250434944255,
+        "min_ms": 243.94650000613183,
+        "max_ms": 29042.73458296666,
+        "p95_ms": 3663.833049981622
+      },
+      "router": {
+        "mean_ms": 0.0
+      },
+      "embedding": {
+        "mean_ms": 2067.16875048446
+      },
+      "cold_start": {
+        "first_page_ms": 793.6117500066757
+      },
+      "note": "Statistics exclude first page (cold start)"
+    }
+  },
+  "comparison": {
+    "our_mean_latency_ms": 2067.1747066568573,
+    "colpali_latency_ms": 400,
+    "speedup_factor": 0.19350081960266477,
+    "latency_reduction_percent": -416.7936766642144,
+    "meets_target": false,
+    "note": "ColPali baseline from published paper (GPU). Our system on M1 Pro with real ColPali model."
+  }
+}

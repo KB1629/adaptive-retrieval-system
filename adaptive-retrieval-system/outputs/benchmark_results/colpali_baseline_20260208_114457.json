@@ -1,0 +1,831 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-08T11:41:04.799742",
+    "device": "DeviceType.MPS",
+    "hardware_info": {
+      "device_name": "Apple Silicon (MPS)",
+      "max_memory_gb": 8.0
+    },
+    "dataset": "DocVQA (ViDoRe benchmark)",
+    "model": "Pure ColPali v1.2 (NO adaptive routing)"
+  },
+  "baseline": {
+    "pages_processed": 100,
+    "per_page_results": [
+      {
+        "page_index": 0,
+        "page_size": "2257x1764",
+        "source_doc": "49153",
+        "total_latency_ms": 25900.803833035752,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 1,
+        "page_size": "808x1077",
+        "source_doc": "24580",
+        "total_latency_ms": 1991.9598750420846,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 2,
+        "page_size": "1701x2386",
+        "source_doc": "57349",
+        "total_latency_ms": 2006.9704169873148,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 3,
+        "page_size": "808x1077",
+        "source_doc": "24581",
+        "total_latency_ms": 1985.6923340121284,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 4,
+        "page_size": "808x1077",
+        "source_doc": "24582",
+        "total_latency_ms": 2008.2709579728544,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 5,
+        "page_size": "1370x1480",
+        "source_doc": "39079",
+        "total_latency_ms": 2020.732874982059,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 6,
+        "page_size": "1701x2386",
+        "source_doc": "57357",
+        "total_latency_ms": 2085.1758749922737,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 7,
+        "page_size": "1750x2270",
+        "source_doc": "24426",
+        "total_latency_ms": 2039.3874580040574,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 8,
+        "page_size": "850x1644",
+        "source_doc": "49168",
+        "total_latency_ms": 1978.4675830160268,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 9,
+        "page_size": "1750x2270",
+        "source_doc": "24423",
+        "total_latency_ms": 2021.761708019767,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 10,
+        "page_size": "850x1644",
+        "source_doc": "49172",
+        "total_latency_ms": 1984.391209029127,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 11,
+        "page_size": "1701x2386",
+        "source_doc": "57364",
+        "total_latency_ms": 2018.4926660149358,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 12,
+        "page_size": "1701x2386",
+        "source_doc": "57366",
+        "total_latency_ms": 2016.768166969996,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 13,
+        "page_size": "1653x2339",
+        "source_doc": "57368",
+        "total_latency_ms": 2027.8471250203438,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 14,
+        "page_size": "850x1644",
+        "source_doc": "49177",
+        "total_latency_ms": 2036.1045420286246,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 15,
+        "page_size": "1653x2339",
+        "source_doc": "57370",
+        "total_latency_ms": 2022.231417009607,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 16,
+        "page_size": "1653x2339",
+        "source_doc": "57371",
+        "total_latency_ms": 2009.4478329992853,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 17,
+        "page_size": "1653x2339",
+        "source_doc": "57372",
+        "total_latency_ms": 2075.7454590057023,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 18,
+        "page_size": "850x1644",
+        "source_doc": "49181",
+        "total_latency_ms": 1978.270291001536,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 19,
+        "page_size": "1653x2339",
+        "source_doc": "57373",
+        "total_latency_ms": 2002.2729170159437,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 20,
+        "page_size": "1679x2340",
+        "source_doc": "57374",
+        "total_latency_ms": 2004.8697090242058,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 21,
+        "page_size": "1679x2340",
+        "source_doc": "57375",
+        "total_latency_ms": 2014.412375050597,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 22,
+        "page_size": "1679x2340",
+        "source_doc": "57376",
+        "total_latency_ms": 2009.7436250071041,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 23,
+        "page_size": "850x1644",
+        "source_doc": "49187",
+        "total_latency_ms": 1984.0736250043847,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 24,
+        "page_size": "2156x1695",
+        "source_doc": "16424",
+        "total_latency_ms": 2023.148250009399,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 25,
+        "page_size": "1679x2340",
+        "source_doc": "57386",
+        "total_latency_ms": 2001.9885419751517,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 26,
+        "page_size": "1679x2340",
+        "source_doc": "57387",
+        "total_latency_ms": 2009.798375016544,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 27,
+        "page_size": "1679x2340",
+        "source_doc": "57388",
+        "total_latency_ms": 2018.986584036611,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 28,
+        "page_size": "1695x2200",
+        "source_doc": "16429",
+        "total_latency_ms": 2042.8759580245242,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 29,
+        "page_size": "2156x1695",
+        "source_doc": "16430",
+        "total_latency_ms": 1987.3729580431245,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 30,
+        "page_size": "1701x2386",
+        "source_doc": "57391",
+        "total_latency_ms": 2028.677084017545,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 31,
+        "page_size": "1701x2386",
+        "source_doc": "57395",
+        "total_latency_ms": 2013.1073330412619,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 32,
+        "page_size": "1695x2200",
+        "source_doc": "16437",
+        "total_latency_ms": 1995.6469589960761,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 33,
+        "page_size": "1695x2200",
+        "source_doc": "16440",
+        "total_latency_ms": 2010.511000000406,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 34,
+        "page_size": "1653x2339",
+        "source_doc": "57402",
+        "total_latency_ms": 2008.1017920165323,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 35,
+        "page_size": "1653x2339",
+        "source_doc": "57403",
+        "total_latency_ms": 1994.2397499689832,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 36,
+        "page_size": "1653x2339",
+        "source_doc": "57404",
+        "total_latency_ms": 2027.4441670044325,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 37,
+        "page_size": "2159x1695",
+        "source_doc": "16444",
+        "total_latency_ms": 1987.8210839815438,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 38,
+        "page_size": "1653x2339",
+        "source_doc": "57407",
+        "total_latency_ms": 2011.565042019356,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 39,
+        "page_size": "2159x1695",
+        "source_doc": "16447",
+        "total_latency_ms": 2054.9582079984248,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 40,
+        "page_size": "1701x2386",
+        "source_doc": "57409",
+        "total_latency_ms": 2033.768624998629,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 41,
+        "page_size": "2162x1695",
+        "source_doc": "16450",
+        "total_latency_ms": 1982.2175840381533,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 42,
+        "page_size": "1701x2386",
+        "source_doc": "57410",
+        "total_latency_ms": 2024.6406249934807,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 43,
+        "page_size": "1701x2386",
+        "source_doc": "57411",
+        "total_latency_ms": 2041.4822080056183,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 44,
+        "page_size": "1701x2386",
+        "source_doc": "57413",
+        "total_latency_ms": 2156.3323750160635,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 45,
+        "page_size": "1701x2386",
+        "source_doc": "57414",
+        "total_latency_ms": 2487.3840830405243,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 46,
+        "page_size": "1701x2386",
+        "source_doc": "57415",
+        "total_latency_ms": 2028.5252920002677,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 47,
+        "page_size": "1701x2386",
+        "source_doc": "57416",
+        "total_latency_ms": 2046.1968749877997,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 48,
+        "page_size": "1701x2386",
+        "source_doc": "57417",
+        "total_latency_ms": 2042.564291972667,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 49,
+        "page_size": "1701x2386",
+        "source_doc": "57418",
+        "total_latency_ms": 2045.4118329798803,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 50,
+        "page_size": "1695x1553",
+        "source_doc": "24437",
+        "total_latency_ms": 2009.2557079624385,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 51,
+        "page_size": "1695x1553",
+        "source_doc": "24438",
+        "total_latency_ms": 1976.6364590032026,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 52,
+        "page_size": "2159x1695",
+        "source_doc": "16455",
+        "total_latency_ms": 1998.129749961663,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 53,
+        "page_size": "2159x1695",
+        "source_doc": "16456",
+        "total_latency_ms": 2021.4009580085985,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 54,
+        "page_size": "2159x1695",
+        "source_doc": "16463",
+        "total_latency_ms": 2032.9033329617232,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 55,
+        "page_size": "1748x2236",
+        "source_doc": "49234",
+        "total_latency_ms": 2050.9234159835614,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 56,
+        "page_size": "1653x2339",
+        "source_doc": "57428",
+        "total_latency_ms": 2046.4908750145696,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 57,
+        "page_size": "1695x1553",
+        "source_doc": "24440",
+        "total_latency_ms": 2008.5690830019303,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 58,
+        "page_size": "2159x1695",
+        "source_doc": "16468",
+        "total_latency_ms": 2046.6138750198297,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 59,
+        "page_size": "1653x2339",
+        "source_doc": "57431",
+        "total_latency_ms": 2023.4006670070812,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 60,
+        "page_size": "2164x1695",
+        "source_doc": "16473",
+        "total_latency_ms": 2048.547874961514,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 61,
+        "page_size": "1748x2236",
+        "source_doc": "49242",
+        "total_latency_ms": 2048.493625014089,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 62,
+        "page_size": "1653x2339",
+        "source_doc": "57439",
+        "total_latency_ms": 2049.4895830051973,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 63,
+        "page_size": "1653x2339",
+        "source_doc": "57440",
+        "total_latency_ms": 2071.6101250145584,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 64,
+        "page_size": "1685x2191",
+        "source_doc": "32870",
+        "total_latency_ms": 2100.0579170067795,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 65,
+        "page_size": "1685x2191",
+        "source_doc": "32871",
+        "total_latency_ms": 2046.7224579770118,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 66,
+        "page_size": "1685x2191",
+        "source_doc": "32872",
+        "total_latency_ms": 2575.1799999852665,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 67,
+        "page_size": "1685x2191",
+        "source_doc": "32873",
+        "total_latency_ms": 1995.2494999743067,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 68,
+        "page_size": "1685x2191",
+        "source_doc": "32874",
+        "total_latency_ms": 2028.5090829711407,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 69,
+        "page_size": "1685x2191",
+        "source_doc": "32875",
+        "total_latency_ms": 2023.9595419843681,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 70,
+        "page_size": "1685x2191",
+        "source_doc": "32876",
+        "total_latency_ms": 2065.764250000939,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 71,
+        "page_size": "1791x2289",
+        "source_doc": "32877",
+        "total_latency_ms": 2342.569916974753,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 72,
+        "page_size": "1791x2289",
+        "source_doc": "32878",
+        "total_latency_ms": 2712.6578329480253,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 73,
+        "page_size": "1791x2289",
+        "source_doc": "32879",
+        "total_latency_ms": 2079.557750024833,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 74,
+        "page_size": "1701x2386",
+        "source_doc": "57449",
+        "total_latency_ms": 2045.8599170087837,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 75,
+        "page_size": "1791x2289",
+        "source_doc": "32881",
+        "total_latency_ms": 2035.9552910085768,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 76,
+        "page_size": "1791x2289",
+        "source_doc": "32882",
+        "total_latency_ms": 2043.1726250099018,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 77,
+        "page_size": "1788x2286",
+        "source_doc": "32883",
+        "total_latency_ms": 2045.4142079688609,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 78,
+        "page_size": "1701x2386",
+        "source_doc": "57452",
+        "total_latency_ms": 2043.3076249901205,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 79,
+        "page_size": "2284x1786",
+        "source_doc": "32885",
+        "total_latency_ms": 2051.207082986366,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 80,
+        "page_size": "2284x1786",
+        "source_doc": "32886",
+        "total_latency_ms": 2031.9022089825012,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 81,
+        "page_size": "1701x2386",
+        "source_doc": "57454",
+        "total_latency_ms": 2020.1478750095703,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 82,
+        "page_size": "1768x2266",
+        "source_doc": "49263",
+        "total_latency_ms": 2006.8148339632899,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 83,
+        "page_size": "2284x1786",
+        "source_doc": "32889",
+        "total_latency_ms": 2024.5177910546772,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 84,
+        "page_size": "2284x1786",
+        "source_doc": "32890",
+        "total_latency_ms": 1997.8862919961102,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 85,
+        "page_size": "3238x2136",
+        "source_doc": "32891",
+        "total_latency_ms": 2078.7640000344254,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 86,
+        "page_size": "3238x2136",
+        "source_doc": "32892",
+        "total_latency_ms": 2057.156292023137,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 87,
+        "page_size": "3238x2136",
+        "source_doc": "32893",
+        "total_latency_ms": 2043.5418749693781,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 88,
+        "page_size": "3238x2136",
+        "source_doc": "32894",
+        "total_latency_ms": 2030.0903749885038,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 89,
+        "page_size": "1768x2266",
+        "source_doc": "49274",
+        "total_latency_ms": 1997.8405840229243,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 90,
+        "page_size": "1784x2284",
+        "source_doc": "32896",
+        "total_latency_ms": 2006.2622079858556,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 91,
+        "page_size": "1784x2284",
+        "source_doc": "32897",
+        "total_latency_ms": 1997.6950410054997,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 92,
+        "page_size": "1784x2284",
+        "source_doc": "32898",
+        "total_latency_ms": 2041.0794999916106,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 93,
+        "page_size": "1701x2386",
+        "source_doc": "57475",
+        "total_latency_ms": 2014.5261670113541,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 94,
+        "page_size": "1784x2284",
+        "source_doc": "32900",
+        "total_latency_ms": 2010.820124996826,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 95,
+        "page_size": "1701x2386",
+        "source_doc": "57476",
+        "total_latency_ms": 2027.409250033088,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 96,
+        "page_size": "1768x2266",
+        "source_doc": "49279",
+        "total_latency_ms": 1997.9911670088768,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 97,
+        "page_size": "1768x2266",
+        "source_doc": "49285",
+        "total_latency_ms": 2011.1982089583762,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 98,
+        "page_size": "1768x2266",
+        "source_doc": "49292",
+        "total_latency_ms": 2020.1865829876624,
+        "embedding_dim": 128,
+        "success": true
+      },
+      {
+        "page_index": 99,
+        "page_size": "1711x2289",
+        "source_doc": "16529",
+        "total_latency_ms": 2037.4312920030206,
+        "embedding_dim": 128,
+        "success": true
+      }
+    ],
+    "latency_stats": {
+      "total": {
+        "mean_ms": 2045.9467567793902,
+        "median_ms": 2023.9595419843681,
+        "std_ms": 106.64787691110222,
+        "min_ms": 1976.6364590032026,
+        "max_ms": 2712.6578329480253,
+        "p95_ms": 2105.6853628077074
+      },
+      "cold_start": {
+        "first_page_ms": 25900.803833035752
+      },
+      "note": "Statistics exclude first page (cold start)"
+    }
+  }
+}
