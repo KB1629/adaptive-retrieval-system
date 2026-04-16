@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/models/results.py
-# hypothesis_version: 6.151.4
-
-[0.0, 1.0, 'ClassificationResult', 'LatencyResult', 'MetricsResult', 'QueryResult', 'SearchResult', 'confidence', 'doc_id', 'features', 'max_ms', 'mean_ms', 'median_ms', 'metadata', 'min_ms', 'modality', 'mrr', 'ndcg', 'num_results', 'num_samples', 'p95_ms', 'page_number', 'query', 'query_latency_ms', 'recall_at_1', 'recall_at_10', 'recall_at_5', 'results', 'score', 'std_ms', 'text-heavy', 'total_searched', 'visual-critical']

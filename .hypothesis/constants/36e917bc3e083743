@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/router/heuristic.py
-# hypothesis_version: 6.151.4
-
-[-0.3, -0.2, -0.1, 0.0, 0.1, 0.4, 0.5, 0.6, 1.0, 2.5, 128, 240, 5000, 'color_variance', 'edge_density', 'image_ratio', 'text-heavy', 'text_density', 'visual-critical', 'white_ratio']

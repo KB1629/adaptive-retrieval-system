@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/benchmark/runner.py
-# hypothesis_version: 6.151.4
-
-['=', 'BenchmarkResult', 'Latency (mean):', 'Overall Metrics:', 'Per-Dataset Results:', 'adaptive-retrieval', 'baseline_name', 'config', 'dataset_results', 'datasets', 'k_values', 'latency', 'measure_latency', 'measure_throughput', 'metrics', 'mrr_diff', 'name', 'ndcg_diff', 'notes', 'query', 'r', 'recall_at_10_diff', 'recall_at_1_diff', 'recall_at_5_diff', 'throughput', 'timestamp', 'w']

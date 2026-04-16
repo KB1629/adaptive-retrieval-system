@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/storage/qdrant_backend.py
-# hypothesis_version: 6.151.4
-
-[1.0, 6333, 'Cosine', 'DocumentMetadata', 'Dot', 'Euclidean', 'SearchResult', 'adaptive_retrieval', 'doc_id', 'error', 'localhost', 'name', 'optimizer_status', 'points_count', 'status', 'vectors_count']

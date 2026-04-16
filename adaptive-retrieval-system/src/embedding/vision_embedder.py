@@ -207,6 +207,94 @@ class VisionEmbedder:
         except Exception as e:
             logger.error(f"Vision embedding failed: {e}")
             raise ValueError(f"Vision embedding failed: {e}")
+
+    def encode_text_query(self, query: str) -> np.ndarray:
+        """
+        Encode a text query using ColPali's query encoder.
+
+        ColPali uses a UNIFIED embedding space — both document images and text
+        queries are projected into the same 128-dim space. This method uses
+        ColPali's native `process_queries()` so the resulting vector can be
+        directly compared (cosine similarity) against image embeddings stored
+        in the vision DB.
+
+        Args:
+            query: Text query string
+
+        Returns:
+            128-dim query embedding in the same space as image embeddings.
+
+        Raises:
+            ValueError: If encoding fails
+        """
+        self._load_model()
+
+        try:
+            with torch.no_grad():
+                if hasattr(self._processor, 'process_queries'):
+                    # ── ColPali native text query encoding ──────────────────
+                    inputs = self._processor.process_queries([query]).to(self.device)
+                    outputs = self._model(**inputs)
+                    # Pool across sequence length → (128,)
+                    embedding = outputs.mean(dim=1).squeeze().cpu().numpy()
+                else:
+                    # ── Fallback: SigLIP text encoder ───────────────────────
+                    inputs = self._processor(text=query, return_tensors="pt",
+                                             padding=True, truncation=True)
+                    inputs = {k: v.to(self.device) for k, v in inputs.items()}
+                    outputs = self._model.get_text_features(**inputs)
+                    embedding = outputs.squeeze().cpu().numpy()
+
+            embedding = embedding.astype(np.float32)
+            # L2-normalise so cosine similarity == dot product
+            norm = np.linalg.norm(embedding)
+            if norm > 1e-8:
+                embedding = embedding / norm
+            return embedding
+
+        except Exception as e:
+            logger.error(f"Text query encoding failed: {e}")
+            raise ValueError(f"Text query encoding failed: {e}")
+
+    def encode_text_queries_batch(self, queries: list[str]) -> list[np.ndarray]:
+        """
+        Encode a batch of text queries using ColPali's query encoder.
+
+        Args:
+            queries: List of query strings
+
+        Returns:
+            List of 128-dim query embeddings
+        """
+        self._load_model()
+
+        try:
+            with torch.no_grad():
+                if hasattr(self._processor, 'process_queries'):
+                    inputs = self._processor.process_queries(queries).to(self.device)
+                    outputs = self._model(**inputs)
+                    embeddings = outputs.mean(dim=1).cpu().numpy()
+                else:
+                    inputs = self._processor(text=queries, return_tensors="pt",
+                                             padding=True, truncation=True)
+                    inputs = {k: v.to(self.device) for k, v in inputs.items()}
+                    outputs = self._model.get_text_features(**inputs)
+                    embeddings = outputs.cpu().numpy()
+
+            result = []
+            for emb in embeddings:
+                emb = emb.astype(np.float32)
+                norm = np.linalg.norm(emb)
+                if norm > 1e-8:
+                    emb = emb / norm
+                result.append(emb)
+            return result
+
+        except Exception as e:
+            logger.error(f"Batch text query encoding failed: {e}")
+            raise ValueError(f"Batch text query encoding failed: {e}")
+
+
     
     def embed_batch(self, images: list[np.ndarray]) -> list[np.ndarray]:
         """

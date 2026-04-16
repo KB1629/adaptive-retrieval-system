@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/router/ml_router.py
-# hypothesis_version: 6.151.4
-
-[1e-10, 0.2, 0.5, 0.6, 1.0, 'image_ratio', 'microsoft/resnet-18', 'model_confidence', 'model_entropy', 'pt', 'text-heavy', 'text_density', 'text_score', 'torch.Tensor', 'visual-critical', 'white_ratio']

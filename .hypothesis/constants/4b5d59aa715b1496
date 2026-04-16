@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/embedding/text_embedder.py
-# hypothesis_version: 6.151.4
-
-[100, 768, 8192, 'All texts are empty', 'Text cannot be empty', 'batch_size', 'cpu', 'cuda', 'device', 'embedding_dim', 'max_tokens', 'model_name', 'mps']

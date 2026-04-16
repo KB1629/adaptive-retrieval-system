@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/embedding/vision_embedder.py
-# hypothesis_version: 6.151.4
-
-[128, 224, 'RGB', 'batch_size', 'cpu', 'cuda', 'device', 'lora_loaded', 'lora_path', 'model_name', 'mps', 'out of memory', 'process_images', 'pt', 'uint8', 'use_pooled', 'vidore/colpali-v1.2']

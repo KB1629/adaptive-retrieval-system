@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/experiment/tracker.py
-# hypothesis_version: 6.151.4
-
-['%Y%m%d_%H%M%S', '*_config.json', '_config', 'batch_size', 'completed_at', 'config', 'created_at', 'experiment_id', 'latency', 'lora_weights_path', 'mean_ms', 'median_ms', 'metrics', 'mrr', 'ndcg', 'outputs/experiments', 'p95_ms', 'random_seed', 'recall_at_1', 'recall_at_10', 'recall_at_5', 'router_accuracy', 'router_type', 'std_ms', 'text_model', 'vector_db_backend', 'vision_model', 'w']

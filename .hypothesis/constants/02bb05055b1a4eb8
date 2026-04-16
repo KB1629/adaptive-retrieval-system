@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/data/splitter.py
-# hypothesis_version: 6.151.4
-
-[0.0, 1e-06, 0.1, 0.8, 1.0, ':', 'test_ratio', 'train_ratio', 'val_ratio']

@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/pipeline/orchestrator.py
-# hypothesis_version: 6.151.4
-
-[768, 6333, 'adaptive_retrieval', 'auto', 'collection_name', 'colpali', 'data/lancedb', 'db_path', 'device', 'doc_id', 'embedding_dim', 'errors', 'heuristic', 'host', 'lancedb', 'localhost', 'ml', 'modality', 'model_name', 'nomic-embed-text', 'page_number', 'port', 'qdrant', 'router_type', 'source_file', 'table_name', 'text-heavy', 'text_model', 'text_path_count', 'total_documents', 'total_pages', 'vector_db_backend', 'vision_model', 'vision_path_count']

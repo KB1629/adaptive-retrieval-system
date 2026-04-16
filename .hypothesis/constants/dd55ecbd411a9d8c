@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/models/data.py
-# hypothesis_version: 6.151.4
-
-['Document', 'EmbeddingResult', 'Page', 'dimensions', 'doc_id', 'extracted_text', 'ground_truth', 'height', 'labels', 'modality', 'model_name', 'name', 'num_documents', 'num_pages', 'num_queries', 'page_number', 'pages', 'processed_at', 'processing_time_ms', 'queries', 'source_document', 'source_path', 'text-heavy', 'total_pages', 'vector', 'visual-critical', 'width']

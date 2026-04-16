@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/embedding/vision_path.py
-# hypothesis_version: 6.151.4
-
-[1000, 'cpu', 'embedder', 'fallback_to_cpu', 'has_cpu_fallback', 'out of memory', 'visual-critical']

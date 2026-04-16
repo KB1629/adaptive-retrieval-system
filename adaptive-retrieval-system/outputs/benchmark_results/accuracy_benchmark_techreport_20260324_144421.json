@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-24T14:44:21.027059",
+    "dataset": "REAL-MM-RAG_techreport",
+    "max_pages": 50,
+    "max_queries": 10
+  },
+  "index_stats": {
+    "total_pages": 50,
+    "indexed_pages": 50,
+    "embed_errors": 0,
+    "text_pages": 5,
+    "visual_pages": 45,
+    "embed_time_s": 113.7522740419954
+  },
+  "retrieval_stats": {
+    "num_queries": 10,
+    "retrieval_s": 4.005189083982259
+  },
+  "metrics": {
+    "recall_at_1": 0.1,
+    "recall_at_5": 0.1,
+    "recall_at_10": 0.9,
+    "mrr": 0.2121825396825397,
+    "ndcg_at_10": 0.36408479267583316
+  },
+  "per_query_results": [
+    {
+      "query_id": "0",
+      "query": "What are the key components of Spectrum Virtualize Safeguarded Copy?",
+      "ground_truth": [
+        "0"
+      ],
+      "retrieved": [
+        "3",
+        "16",
+        "17",
+        "19",
+        "27",
+        "0",
+        "1",
+        "7",
+        "8",
+        "18"
+      ]
+    },
+    {
+      "query_id": "1",
+      "query": "How does Disaster Recovery (DR) differ from High Availability (HA) in terms of d",
+      "ground_truth": [
+        "1"
+      ],
+      "retrieved": [
+        "27",
+        "3",
+        "19",
+        "16",
+        "17",
+        "0",
+        "1",
+        "7",
+        "8",
+        "31"
+      ]
+    },
+    {
+      "query_id": "2",
+      "query": "What command is used to create a Safeguarded Copy backup location using the CLI ",
+      "ground_truth": [
+        "2"
+      ],
+      "retrieved": [
+        "16",
+        "17",
+        "19",
+        "3",
+        "27",
+        "2",
+        "20",
+        "5",
+        "6",
+        "14"
+      ]
+    },
+    {
+      "query_id": "3",
+      "query": "What is the purpose of the Cyber Resiliency Assessment Tool according to the gui",
+      "ground_truth": [
+        "3"
+      ],
+      "retrieved": [
+        "3",
+        "27",
+        "16",
+        "17",
+        "19",
+        "9",
+        "0",
+        "1",
+        "21",
+        "22"
+      ]
+    },
+    {
+      "query_id": "4",
+      "query": "What is the recommended approach for auditing in IBM Copy Services Manager?",
+      "ground_truth": [
+        "4"
+      ],
+      "retrieved": [
+        "16",
+        "17",
+        "3",
+        "19",
+        "27",
+        "14",
+        "18",
+        "4",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "query_id": "5",
+      "query": "What does a Safeguarded backup policy control in IBM FlashSystem?",
+      "ground_truth": [
+        "5"
+      ],
+      "retrieved": [
+        "16",
+        "17",
+        "19",
+        "3",
+        "27",
+        "20",
+        "5",
+        "6",
+        "26",
+        "14"
+      ]
+    },
+    {
+      "query_id": "6",
+      "query": "How many predefined policies does the IBM FlashSystem include for Safeguarded ba",
+      "ground_truth": [
+        "6"
+      ],
+      "retrieved": [
+        "16",
+        "17",
+        "3",
+        "19",
+        "27",
+        "20",
+        "26",
+        "5",
+        "6",
+        "2"
+      ]
+    },
+    {
+      "query_id": "7",
+      "query": "How does the IBM Copy Services Manager scan for volume groups with an associated",
+      "ground_truth": [
+        "7"
+      ],
+      "retrieved": [
+        "16",
+        "17",
+        "19",
+        "3",
+        "27",
+        "20",
+        "26",
+        "14",
+        "18",
+        "7"
+      ]
+    },
+    {
+      "query_id": "8",
+      "query": "What is the purpose of an air-gap in the context of IBM FlashSystem Safeguarded ",
+      "ground_truth": [
+        "8"
+      ],
+      "retrieved": [
+        "16",
+        "17",
+        "3",
+        "19",
+        "27",
+        "20",
+        "0",
+        "1",
+        "26",
+        "2"
+      ]
+    },
+    {
+      "query_id": "9",
+      "query": "What steps are involved in restoring from a safeguarded copy according to the gu",
+      "ground_truth": [
+        "9"
+      ],
+      "retrieved": [
+        "19",
+        "16",
+        "17",
+        "3",
+        "27",
+        "9",
+        "7",
+        "8",
+        "5",
+        "6"
+      ]
+    }
+  ]
+}

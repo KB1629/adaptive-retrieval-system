@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/benchmark/visualization.py
-# hypothesis_version: 6.151.4
-
-[0.0, '\nRetrieval Metrics:', ' Overall Speedup |', '-', '- |', '1.00x |', '=', 'Benchmark Results', 'Latency_Mean', 'MRR', 'NDCG', 'Recall@1', 'Recall@10', 'Recall@5', 'System', 'Throughput', '\\begin{table}[ht]', '\\centering', '\\end{table}', '\\end{tabular}', '\\hline', 'mrr', 'ndcg', 'recall_at_1', 'recall_at_10', 'recall_at_5', 'tab:results', 'w', '|', '| Configuration', '| System']

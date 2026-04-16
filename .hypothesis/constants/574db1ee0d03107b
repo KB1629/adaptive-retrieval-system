@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/models/__init__.py
-# hypothesis_version: 6.151.4
-
-['BenchmarkDataset', 'ClassificationResult', 'Document', 'EmbeddingResult', 'ExperimentConfig', 'ExperimentResult', 'LatencyResult', 'MetricsResult', 'Page', 'QueryResult', 'SearchResult']

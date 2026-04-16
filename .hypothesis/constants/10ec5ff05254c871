@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/utils/hardware.py
-# hypothesis_version: 6.151.4
-
-[0.9, 4.0, 8.0, 1024, 'Apple Silicon (MPS)', 'CPU', 'CUDA cache cleared', 'Memory cache cleared', 'auto', 'cpu', 'cuda', 'mps', 'router', 'text_embedding', 'vision_embedding']

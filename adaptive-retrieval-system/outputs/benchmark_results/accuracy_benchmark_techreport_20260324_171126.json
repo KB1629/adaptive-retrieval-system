@@ -1,0 +1,1929 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-24T17:11:26.973726",
+    "dataset": "REAL-MM-RAG_techreport",
+    "max_pages": 500,
+    "max_queries": 100
+  },
+  "index_stats": {
+    "total_pages": 500,
+    "indexed_pages": 500,
+    "embed_errors": 0,
+    "text_pages": 61,
+    "visual_pages": 439,
+    "embed_time_s": 6768.4166609169915
+  },
+  "retrieval_stats": {
+    "num_queries": 100,
+    "retrieval_s": 48.27088933298364
+  },
+  "metrics": {
+    "recall_at_1": 0.07,
+    "recall_at_5": 0.35,
+    "recall_at_10": 0.6,
+    "mrr": 0.21425,
+    "ndcg_at_10": 0.3041197798645292
+  },
+  "per_query_results": [
+    {
+      "query_id": "0",
+      "query": "What are the key components of Spectrum Virtualize Safeguarded Copy?",
+      "ground_truth": [
+        "0"
+      ],
+      "retrieved": [
+        "396",
+        "0",
+        "397",
+        "1",
+        "364",
+        "7",
+        "3",
+        "8",
+        "16",
+        "18"
+      ]
+    },
+    {
+      "query_id": "1",
+      "query": "How does Disaster Recovery (DR) differ from High Availability (HA) in terms of d",
+      "ground_truth": [
+        "1"
+      ],
+      "retrieved": [
+        "396",
+        "0",
+        "397",
+        "1",
+        "27",
+        "370",
+        "261",
+        "7",
+        "262",
+        "8"
+      ]
+    },
+    {
+      "query_id": "2",
+      "query": "What command is used to create a Safeguarded Copy backup location using the CLI ",
+      "ground_truth": [
+        "2"
+      ],
+      "retrieved": [
+        "16",
+        "2",
+        "17",
+        "20",
+        "19",
+        "5",
+        "3",
+        "6",
+        "437",
+        "14"
+      ]
+    },
+    {
+      "query_id": "3",
+      "query": "What is the purpose of the Cyber Resiliency Assessment Tool according to the gui",
+      "ground_truth": [
+        "3"
+      ],
+      "retrieved": [
+        "3",
+        "431",
+        "396",
+        "223",
+        "397",
+        "370",
+        "62",
+        "425",
+        "356",
+        "426"
+      ]
+    },
+    {
+      "query_id": "4",
+      "query": "What is the recommended approach for auditing in IBM Copy Services Manager?",
+      "ground_truth": [
+        "4"
+      ],
+      "retrieved": [
+        "16",
+        "115",
+        "17",
+        "14",
+        "364",
+        "132",
+        "3",
+        "291",
+        "371",
+        "304"
+      ]
+    },
+    {
+      "query_id": "5",
+      "query": "What does a Safeguarded backup policy control in IBM FlashSystem?",
+      "ground_truth": [
+        "5"
+      ],
+      "retrieved": [
+        "16",
+        "20",
+        "17",
+        "5",
+        "19",
+        "6",
+        "465",
+        "26",
+        "466",
+        "14"
+      ]
+    },
+    {
+      "query_id": "6",
+      "query": "How many predefined policies does the IBM FlashSystem include for Safeguarded ba",
+      "ground_truth": [
+        "6"
+      ],
+      "retrieved": [
+        "16",
+        "20",
+        "17",
+        "26",
+        "3",
+        "5",
+        "465",
+        "6",
+        "466",
+        "2"
+      ]
+    },
+    {
+      "query_id": "7",
+      "query": "How does the IBM Copy Services Manager scan for volume groups with an associated",
+      "ground_truth": [
+        "7"
+      ],
+      "retrieved": [
+        "16",
+        "20",
+        "17",
+        "26",
+        "19",
+        "14",
+        "3",
+        "18",
+        "465",
+        "7"
+      ]
+    },
+    {
+      "query_id": "8",
+      "query": "What is the purpose of an air-gap in the context of IBM FlashSystem Safeguarded ",
+      "ground_truth": [
+        "8"
+      ],
+      "retrieved": [
+        "16",
+        "20",
+        "17",
+        "0",
+        "3",
+        "1",
+        "396",
+        "26",
+        "397",
+        "2"
+      ]
+    },
+    {
+      "query_id": "9",
+      "query": "What steps are involved in restoring from a safeguarded copy according to the gu",
+      "ground_truth": [
+        "9"
+      ],
+      "retrieved": [
+        "19",
+        "9",
+        "16",
+        "7",
+        "17",
+        "8",
+        "3",
+        "5",
+        "396",
+        "6"
+      ]
+    },
+    {
+      "query_id": "10",
+      "query": "What is the significance of a child pool in the context of Safeguarded source vo",
+      "ground_truth": [
+        "10"
+      ],
+      "retrieved": [
+        "261",
+        "2",
+        "262",
+        "134",
+        "3",
+        "310",
+        "16",
+        "0",
+        "17",
+        "1"
+      ]
+    },
+    {
+      "query_id": "11",
+      "query": "What is required to ensure consistent FlashCopy operations in IBM FlashSystem?",
+      "ground_truth": [
+        "11"
+      ],
+      "retrieved": [
+        "3",
+        "188",
+        "364",
+        "218",
+        "72",
+        "219",
+        "73",
+        "366",
+        "74",
+        "220"
+      ]
+    },
+    {
+      "query_id": "12",
+      "query": "What are the limitations of IBM FlashSystem Safeguarded-source volumes?",
+      "ground_truth": [
+        "12"
+      ],
+      "retrieved": [
+        "3",
+        "20",
+        "411",
+        "10",
+        "480",
+        "11",
+        "481",
+        "12",
+        "16",
+        "13"
+      ]
+    },
+    {
+      "query_id": "13",
+      "query": "What is the significance of a volume group being considered Safeguarded but havi",
+      "ground_truth": [
+        "13"
+      ],
+      "retrieved": [
+        "16",
+        "10",
+        "17",
+        "11",
+        "465",
+        "12",
+        "466",
+        "13",
+        "313",
+        "5"
+      ]
+    },
+    {
+      "query_id": "14",
+      "query": "How do I specify the retention period for Safeguarded backups in IBM FlashSystem",
+      "ground_truth": [
+        "14"
+      ],
+      "retrieved": [
+        "16",
+        "20",
+        "17",
+        "26",
+        "19",
+        "14",
+        "445",
+        "5",
+        "446",
+        "6"
+      ]
+    },
+    {
+      "query_id": "15",
+      "query": "Where can I get support and downloads for IBM products?",
+      "ground_truth": [
+        "15"
+      ],
+      "retrieved": [
+        "57",
+        "447",
+        "27",
+        "448",
+        "192",
+        "449",
+        "193",
+        "15",
+        "371",
+        "495"
+      ]
+    },
+    {
+      "query_id": "16",
+      "query": "How does IBM Copy Services Manager detect and manage Safeguarded policies?",
+      "ground_truth": [
+        "16"
+      ],
+      "retrieved": [
+        "16",
+        "20",
+        "17",
+        "14",
+        "465",
+        "26",
+        "466",
+        "0",
+        "19",
+        "1"
+      ]
+    },
+    {
+      "query_id": "17",
+      "query": "How are the sessions for Safeguarded backups named in the IBM Copy Services Mana",
+      "ground_truth": [
+        "17"
+      ],
+      "retrieved": [
+        "16",
+        "20",
+        "17",
+        "14",
+        "19",
+        "5",
+        "465",
+        "6",
+        "466",
+        "9"
+      ]
+    },
+    {
+      "query_id": "18",
+      "query": "What are the potential benefits of using remote copy replication in the context ",
+      "ground_truth": [
+        "18"
+      ],
+      "retrieved": [
+        "364",
+        "0",
+        "19",
+        "1",
+        "16",
+        "18",
+        "17",
+        "7",
+        "3",
+        "8"
+      ]
+    },
+    {
+      "query_id": "19",
+      "query": "How is data integrity ensured during the restoration of a backup in IBM FlashSys",
+      "ground_truth": [
+        "19"
+      ],
+      "retrieved": [
+        "19",
+        "389",
+        "16",
+        "498",
+        "17",
+        "14",
+        "3",
+        "304",
+        "465",
+        "294"
+      ]
+    },
+    {
+      "query_id": "20",
+      "query": "What does the management GUI allow users to do with user-defined Safeguarded bac",
+      "ground_truth": [
+        "20"
+      ],
+      "retrieved": [
+        "16",
+        "20",
+        "17",
+        "5",
+        "465",
+        "6",
+        "466",
+        "2",
+        "445",
+        "10"
+      ]
+    },
+    {
+      "query_id": "21",
+      "query": "What IBM monitoring tools are mentioned in the text that can help correlate even",
+      "ground_truth": [
+        "21"
+      ],
+      "retrieved": [
+        "72",
+        "311",
+        "73",
+        "149",
+        "74",
+        "277",
+        "465",
+        "278",
+        "466",
+        "132"
+      ]
+    },
+    {
+      "query_id": "22",
+      "query": "Why is periodic validation of backups considered a sound IT practice?",
+      "ground_truth": [
+        "22"
+      ],
+      "retrieved": [
+        "62",
+        "21",
+        "16",
+        "22",
+        "17",
+        "7",
+        "364",
+        "8",
+        "19",
+        "332"
+      ]
+    },
+    {
+      "query_id": "23",
+      "query": "What types of volumes are supported for safeguarding in IBM FlashSystem Safeguar",
+      "ground_truth": [
+        "23"
+      ],
+      "retrieved": [
+        "16",
+        "0",
+        "17",
+        "1",
+        "3",
+        "18",
+        "19",
+        "7",
+        "465",
+        "8"
+      ]
+    },
+    {
+      "query_id": "24",
+      "query": "How many FlashCopy consistency groups can be configured per system in IBM FlashS",
+      "ground_truth": [
+        "24"
+      ],
+      "retrieved": [
+        "3",
+        "18",
+        "16",
+        "0",
+        "17",
+        "1",
+        "19",
+        "366",
+        "364",
+        "23"
+      ]
+    },
+    {
+      "query_id": "25",
+      "query": "What is the purpose of the `lsvdisk` command in the context of HyperSwap volume ",
+      "ground_truth": [
+        "25"
+      ],
+      "retrieved": [
+        "16",
+        "25",
+        "17",
+        "259",
+        "205",
+        "260",
+        "364",
+        "469",
+        "316",
+        "470"
+      ]
+    },
+    {
+      "query_id": "26",
+      "query": "What is the first step to create safeguarded copies on IBM Spectrum Virtualize?",
+      "ground_truth": [
+        "26"
+      ],
+      "retrieved": [
+        "396",
+        "10",
+        "397",
+        "11",
+        "16",
+        "12",
+        "17",
+        "13",
+        "3",
+        "7"
+      ]
+    },
+    {
+      "query_id": "27",
+      "query": "What is VastI Gujr's role at IBM?",
+      "ground_truth": [
+        "27"
+      ],
+      "retrieved": [
+        "27",
+        "388",
+        "192",
+        "335",
+        "193",
+        "152",
+        "439",
+        "498",
+        "371",
+        "303"
+      ]
+    },
+    {
+      "query_id": "28",
+      "query": "How does the graphical user interface (GUI) of IBM FlashSystem 840 contribute to",
+      "ground_truth": [
+        "28"
+      ],
+      "retrieved": [
+        "499",
+        "498",
+        "428",
+        "28",
+        "356",
+        "29",
+        "456",
+        "30",
+        "480",
+        "405"
+      ]
+    },
+    {
+      "query_id": "29",
+      "query": "What specific technologies does IBM FlashSystem 840 use to achieve low latency?",
+      "ground_truth": [
+        "29"
+      ],
+      "retrieved": [
+        "480",
+        "498",
+        "481",
+        "28",
+        "411",
+        "29",
+        "356",
+        "30",
+        "499",
+        "31"
+      ]
+    },
+    {
+      "query_id": "30",
+      "query": "What is the significance of the 4.8x faster setup time mentioned for IBM FlashSy",
+      "ground_truth": [
+        "30"
+      ],
+      "retrieved": [
+        "480",
+        "28",
+        "481",
+        "29",
+        "411",
+        "30",
+        "356",
+        "405",
+        "187",
+        "239"
+      ]
+    },
+    {
+      "query_id": "31",
+      "query": "What specific capabilities does IBM FlashSystem 840 offer for improving SAP perf",
+      "ground_truth": [
+        "31"
+      ],
+      "retrieved": [
+        "480",
+        "28",
+        "481",
+        "29",
+        "411",
+        "30",
+        "211",
+        "31",
+        "193",
+        "32"
+      ]
+    },
+    {
+      "query_id": "32",
+      "query": "What are the benefits of using IBM FlashSystem 840 integrated with SAN Volume Co",
+      "ground_truth": [
+        "32"
+      ],
+      "retrieved": [
+        "480",
+        "28",
+        "481",
+        "29",
+        "411",
+        "30",
+        "211",
+        "31",
+        "119",
+        "32"
+      ]
+    },
+    {
+      "query_id": "33",
+      "query": "What are the advantages of using flash memory in IBM FlashSystem 840 for SAP wor",
+      "ground_truth": [
+        "33"
+      ],
+      "retrieved": [
+        "480",
+        "406",
+        "481",
+        "407",
+        "356",
+        "408",
+        "3",
+        "409",
+        "411",
+        "31"
+      ]
+    },
+    {
+      "query_id": "34",
+      "query": "How does the integration of IBM FlashSystem 840 with SAN Volume Controller enhan",
+      "ground_truth": [
+        "34"
+      ],
+      "retrieved": [
+        "480",
+        "36",
+        "481",
+        "37",
+        "456",
+        "38",
+        "411",
+        "39",
+        "187",
+        "40"
+      ]
+    },
+    {
+      "query_id": "35",
+      "query": "What specific issues does IBM FlashSystem 840 help in mitigating for virtualized",
+      "ground_truth": [
+        "35"
+      ],
+      "retrieved": [
+        "356",
+        "28",
+        "480",
+        "29",
+        "481",
+        "30",
+        "72",
+        "498",
+        "73",
+        "31"
+      ]
+    },
+    {
+      "query_id": "36",
+      "query": "What are the benefits of using the Easy Tier function with IBM FlashSystem 840?",
+      "ground_truth": [
+        "36"
+      ],
+      "retrieved": [
+        "356",
+        "497",
+        "480",
+        "405",
+        "481",
+        "406",
+        "262",
+        "407",
+        "261",
+        "408"
+      ]
+    },
+    {
+      "query_id": "37",
+      "query": "What specific capabilities does IBM FlashSystem 840 integrated with SAN Volume C",
+      "ground_truth": [
+        "37"
+      ],
+      "retrieved": [
+        "480",
+        "36",
+        "481",
+        "37",
+        "411",
+        "28",
+        "456",
+        "29",
+        "356",
+        "30"
+      ]
+    },
+    {
+      "query_id": "38",
+      "query": "What is the optimal number of MDisks to use for CPU processing in an IBM FlashSy",
+      "ground_truth": [
+        "38"
+      ],
+      "retrieved": [
+        "480",
+        "498",
+        "481",
+        "497",
+        "356",
+        "489",
+        "411",
+        "38",
+        "72",
+        "39"
+      ]
+    },
+    {
+      "query_id": "39",
+      "query": "How many MDisks per SAN Volume Controller cluster are supported for IBM FlashSys",
+      "ground_truth": [
+        "39"
+      ],
+      "retrieved": [
+        "480",
+        "38",
+        "481",
+        "39",
+        "411",
+        "40",
+        "187",
+        "41",
+        "417",
+        "225"
+      ]
+    },
+    {
+      "query_id": "40",
+      "query": "What type of SAN connections does IBM FlashSystem 840 support?",
+      "ground_truth": [
+        "40"
+      ],
+      "retrieved": [
+        "480",
+        "405",
+        "481",
+        "406",
+        "411",
+        "407",
+        "119",
+        "408",
+        "120",
+        "409"
+      ]
+    },
+    {
+      "query_id": "41",
+      "query": "Where can I find more detailed information about planning and configuring IBM Fl",
+      "ground_truth": [
+        "41"
+      ],
+      "retrieved": [
+        "480",
+        "38",
+        "481",
+        "39",
+        "411",
+        "40",
+        "119",
+        "41",
+        "120",
+        "36"
+      ]
+    },
+    {
+      "query_id": "42",
+      "query": "Where can I find the IBM Redbooks Solution Guides for IBM FlashSystem family?",
+      "ground_truth": [
+        "42"
+      ],
+      "retrieved": [
+        "27",
+        "495",
+        "480",
+        "447",
+        "481",
+        "448",
+        "411",
+        "449",
+        "192",
+        "42"
+      ]
+    },
+    {
+      "query_id": "43",
+      "query": "How many remote copy port groups does an IBM Spectrum Virtualize based system su",
+      "ground_truth": [
+        "43"
+      ],
+      "retrieved": [
+        "116",
+        "43",
+        "205",
+        "44",
+        "364",
+        "45",
+        "187",
+        "46",
+        "299",
+        "47"
+      ]
+    },
+    {
+      "query_id": "44",
+      "query": "What is the maximum IP replication throughput per node for the IBM FlashSystem 9",
+      "ground_truth": [
+        "44"
+      ],
+      "retrieved": [
+        "116",
+        "31",
+        "205",
+        "32",
+        "187",
+        "33",
+        "299",
+        "34",
+        "300",
+        "35"
+      ]
+    },
+    {
+      "query_id": "45",
+      "query": "What is the maximum IP replication throughput per node for the FlashSystem V9000",
+      "ground_truth": [
+        "45"
+      ],
+      "retrieved": [
+        "116",
+        "31",
+        "205",
+        "32",
+        "356",
+        "33",
+        "364",
+        "34",
+        "299",
+        "35"
+      ]
+    },
+    {
+      "query_id": "46",
+      "query": "What is the maximum IP replication throughput per node for the Storwize V7000 Ge",
+      "ground_truth": [
+        "46"
+      ],
+      "retrieved": [
+        "116",
+        "314",
+        "205",
+        "315",
+        "299",
+        "259",
+        "300",
+        "260",
+        "187",
+        "31"
+      ]
+    },
+    {
+      "query_id": "47",
+      "query": "What is the maximum IP replication throughput per node for the IBM FlashSystem 9",
+      "ground_truth": [
+        "47"
+      ],
+      "retrieved": [
+        "116",
+        "31",
+        "205",
+        "32",
+        "187",
+        "33",
+        "299",
+        "34",
+        "300",
+        "35"
+      ]
+    },
+    {
+      "query_id": "48",
+      "query": "What is the impact of using different policies for volume mirroring in IBM Flash",
+      "ground_truth": [
+        "48"
+      ],
+      "retrieved": [
+        "364",
+        "59",
+        "356",
+        "60",
+        "211",
+        "61",
+        "119",
+        "180",
+        "120",
+        "181"
+      ]
+    },
+    {
+      "query_id": "49",
+      "query": "How does the capacity saving change option work in IBM FlashSystem 9200 and 9100",
+      "ground_truth": [
+        "49"
+      ],
+      "retrieved": [
+        "356",
+        "405",
+        "262",
+        "474",
+        "261",
+        "406",
+        "211",
+        "407",
+        "72",
+        "408"
+      ]
+    },
+    {
+      "query_id": "50",
+      "query": "How does Cascaded FlashCopy function in IBM FlashSystem 9200 and 9100?",
+      "ground_truth": [
+        "50"
+      ],
+      "retrieved": [
+        "72",
+        "314",
+        "73",
+        "315",
+        "74",
+        "405",
+        "364",
+        "153",
+        "211",
+        "406"
+      ]
+    },
+    {
+      "query_id": "51",
+      "query": "What is the relationship between the background copy rate value and the data rat",
+      "ground_truth": [
+        "51"
+      ],
+      "retrieved": [
+        "364",
+        "168",
+        "356",
+        "218",
+        "3",
+        "219",
+        "72",
+        "284",
+        "73",
+        "285"
+      ]
+    },
+    {
+      "query_id": "52",
+      "query": "What should be considered when zoning in SAN fabrics with multiple vendors for I",
+      "ground_truth": [
+        "52"
+      ],
+      "retrieved": [
+        "119",
+        "352",
+        "120",
+        "38",
+        "211",
+        "39",
+        "299",
+        "40",
+        "300",
+        "41"
+      ]
+    },
+    {
+      "query_id": "53",
+      "query": "What should be considered when mixing tape and disk traffic on the same Fibre Ch",
+      "ground_truth": [
+        "53"
+      ],
+      "retrieved": [
+        "116",
+        "375",
+        "119",
+        "376",
+        "120",
+        "498",
+        "187",
+        "52",
+        "356",
+        "53"
+      ]
+    },
+    {
+      "query_id": "54",
+      "query": "What are the implications of using multiple switch vendors in the same SAN with ",
+      "ground_truth": [
+        "54"
+      ],
+      "retrieved": [
+        "211",
+        "52",
+        "119",
+        "53",
+        "120",
+        "54",
+        "299",
+        "406",
+        "300",
+        "407"
+      ]
+    },
+    {
+      "query_id": "55",
+      "query": "What types of devices does the IBM w3 Connections community provide up-to-date p",
+      "ground_truth": [
+        "55"
+      ],
+      "retrieved": [
+        "299",
+        "55",
+        "300",
+        "56",
+        "411",
+        "305",
+        "72",
+        "306",
+        "73",
+        "307"
+      ]
+    },
+    {
+      "query_id": "56",
+      "query": "What types of devices does the IBM w3 Connections community provide up-to-date p",
+      "ground_truth": [
+        "56"
+      ],
+      "retrieved": [
+        "299",
+        "55",
+        "300",
+        "56",
+        "411",
+        "305",
+        "72",
+        "306",
+        "73",
+        "307"
+      ]
+    },
+    {
+      "query_id": "57",
+      "query": "How can I automatically upload a support package to the IBM support center using",
+      "ground_truth": [
+        "57"
+      ],
+      "retrieved": [
+        "57",
+        "130",
+        "439",
+        "131",
+        "441",
+        "55",
+        "456",
+        "56",
+        "467",
+        "71"
+      ]
+    },
+    {
+      "query_id": "58",
+      "query": "How can you customize the metrics displayed in the IBM FlashSystem 9100 monitori",
+      "ground_truth": [
+        "58"
+      ],
+      "retrieved": [
+        "72",
+        "154",
+        "73",
+        "77",
+        "74",
+        "58",
+        "499",
+        "336",
+        "411",
+        "147"
+      ]
+    },
+    {
+      "query_id": "59",
+      "query": "What are the considerations for remote copy configurations in IBM FlashSystem 92",
+      "ground_truth": [
+        "59"
+      ],
+      "retrieved": [
+        "364",
+        "59",
+        "205",
+        "60",
+        "116",
+        "61",
+        "211",
+        "314",
+        "356",
+        "315"
+      ]
+    },
+    {
+      "query_id": "60",
+      "query": "What zoning scheme should be applied for IBM FlashSystem 9200 and 9100 when the ",
+      "ground_truth": [
+        "60"
+      ],
+      "retrieved": [
+        "205",
+        "166",
+        "72",
+        "59",
+        "73",
+        "60",
+        "74",
+        "61",
+        "116",
+        "346"
+      ]
+    },
+    {
+      "query_id": "61",
+      "query": "How are the I/O groups organized in the zoning scheme for IBM FlashSystem 9200 a",
+      "ground_truth": [
+        "61"
+      ],
+      "retrieved": [
+        "72",
+        "406",
+        "73",
+        "407",
+        "74",
+        "408",
+        "187",
+        "409",
+        "480",
+        "259"
+      ]
+    },
+    {
+      "query_id": "62",
+      "query": "What type of certificate is recommended to avoid unnecessary certificate exchang",
+      "ground_truth": [
+        "62"
+      ],
+      "retrieved": [
+        "62",
+        "198",
+        "396",
+        "140",
+        "397",
+        "361",
+        "187",
+        "362",
+        "299",
+        "143"
+      ]
+    },
+    {
+      "query_id": "63",
+      "query": "What should be done to avoid IBM Spectrum Virtualize or Storage trying to encryp",
+      "ground_truth": [
+        "63"
+      ],
+      "retrieved": [
+        "396",
+        "63",
+        "397",
+        "198",
+        "465",
+        "153",
+        "466",
+        "52",
+        "62",
+        "53"
+      ]
+    },
+    {
+      "query_id": "64",
+      "query": "What is the purpose of the Easy Tier function in IBM Spectrum Virtualize?",
+      "ground_truth": [
+        "64"
+      ],
+      "retrieved": [
+        "396",
+        "232",
+        "397",
+        "233",
+        "356",
+        "234",
+        "439",
+        "64",
+        "187",
+        "175"
+      ]
+    },
+    {
+      "query_id": "65",
+      "query": "What does the term 'I/O Rate' refer to in the context of IBM FlashSystem?",
+      "ground_truth": [
+        "65"
+      ],
+      "retrieved": [
+        "480",
+        "65",
+        "481",
+        "66",
+        "411",
+        "58",
+        "135",
+        "244",
+        "136",
+        "259"
+      ]
+    },
+    {
+      "query_id": "66",
+      "query": "What is the significance of 'Port Protocol Errors' in IBM FlashSystem?",
+      "ground_truth": [
+        "66"
+      ],
+      "retrieved": [
+        "119",
+        "171",
+        "120",
+        "277",
+        "123",
+        "278",
+        "124",
+        "65",
+        "72",
+        "66"
+      ]
+    },
+    {
+      "query_id": "67",
+      "query": "What utility can be used to copy the backup file from the configuration node in ",
+      "ground_truth": [
+        "67"
+      ],
+      "retrieved": [
+        "19",
+        "67",
+        "364",
+        "389",
+        "16",
+        "198",
+        "17",
+        "365",
+        "57",
+        "345"
+      ]
+    },
+    {
+      "query_id": "68",
+      "query": "What are the steps to solve overloaded nodes in IBM FlashSystem?",
+      "ground_truth": [
+        "68"
+      ],
+      "retrieved": [
+        "119",
+        "68",
+        "120",
+        "259",
+        "356",
+        "260",
+        "72",
+        "38",
+        "73",
+        "39"
+      ]
+    },
+    {
+      "query_id": "69",
+      "query": "What is the maximum number of cloud volumes that can have cloud-snapshot enabled",
+      "ground_truth": [
+        "69"
+      ],
+      "retrieved": [
+        "356",
+        "225",
+        "411",
+        "226",
+        "480",
+        "169",
+        "481",
+        "170",
+        "187",
+        "69"
+      ]
+    },
+    {
+      "query_id": "70",
+      "query": "What is the recommended maximum physical capacity usage for an IBM FlashSystem a",
+      "ground_truth": [
+        "70"
+      ],
+      "retrieved": [
+        "3",
+        "169",
+        "262",
+        "170",
+        "261",
+        "482",
+        "356",
+        "483",
+        "411",
+        "484"
+      ]
+    },
+    {
+      "query_id": "71",
+      "query": "What are the two types of access for remote support assistance in IBM FlashSyste",
+      "ground_truth": [
+        "71"
+      ],
+      "retrieved": [
+        "299",
+        "71",
+        "300",
+        "405",
+        "57",
+        "493",
+        "72",
+        "494",
+        "73",
+        "420"
+      ]
+    },
+    {
+      "query_id": "72",
+      "query": "Which command is used to check whether volumes are online and working correctly ",
+      "ground_truth": [
+        "72"
+      ],
+      "retrieved": [
+        "72",
+        "154",
+        "73",
+        "311",
+        "74",
+        "277",
+        "480",
+        "278",
+        "481",
+        "290"
+      ]
+    },
+    {
+      "query_id": "73",
+      "query": "What command provides a status of MDisks in IBM FlashSystem 9100?",
+      "ground_truth": [
+        "73"
+      ],
+      "retrieved": [
+        "72",
+        "498",
+        "73",
+        "406",
+        "74",
+        "407",
+        "57",
+        "408",
+        "411",
+        "409"
+      ]
+    },
+    {
+      "query_id": "74",
+      "query": "Which command checks the optional back-end storage status in IBM FlashSystem 910",
+      "ground_truth": [
+        "74"
+      ],
+      "retrieved": [
+        "72",
+        "474",
+        "73",
+        "405",
+        "74",
+        "406",
+        "313",
+        "407",
+        "411",
+        "408"
+      ]
+    },
+    {
+      "query_id": "75",
+      "query": "What kind of data can I expect to gather from the Port-to-Local Node Send Respon",
+      "ground_truth": [
+        "75"
+      ],
+      "retrieved": [
+        "116",
+        "346",
+        "57",
+        "138",
+        "313",
+        "139",
+        "135",
+        "141",
+        "136",
+        "142"
+      ]
+    },
+    {
+      "query_id": "76",
+      "query": "How does IBM Storage Insights help in monitoring the storage environment of IBM ",
+      "ground_truth": [
+        "76"
+      ],
+      "retrieved": [
+        "72",
+        "406",
+        "73",
+        "407",
+        "74",
+        "408",
+        "356",
+        "409",
+        "211",
+        "474"
+      ]
+    },
+    {
+      "query_id": "77",
+      "query": "How far back can the historical comparison of metrics go on the IBM Spectrum Con",
+      "ground_truth": [
+        "77"
+      ],
+      "retrieved": [
+        "499",
+        "77",
+        "72",
+        "132",
+        "73",
+        "336",
+        "74",
+        "370",
+        "480",
+        "338"
+      ]
+    },
+    {
+      "query_id": "78",
+      "query": "What is the purpose of the replication layer in the IBM FlashSystem 9200 and 910",
+      "ground_truth": [
+        "78"
+      ],
+      "retrieved": [
+        "364",
+        "324",
+        "356",
+        "325",
+        "211",
+        "326",
+        "205",
+        "497",
+        "187",
+        "168"
+      ]
+    },
+    {
+      "query_id": "79",
+      "query": "What type of volume is used in IBM FlashSystem for HyperSwap functionality?",
+      "ground_truth": [
+        "79"
+      ],
+      "retrieved": [
+        "480",
+        "259",
+        "481",
+        "260",
+        "411",
+        "79",
+        "441",
+        "405",
+        "187",
+        "31"
+      ]
+    },
+    {
+      "query_id": "80",
+      "query": "What are the three thresholds set for alert levels in the IBM FlashSystem exampl",
+      "ground_truth": [
+        "80"
+      ],
+      "retrieved": [
+        "135",
+        "343",
+        "136",
+        "80",
+        "137",
+        "81",
+        "313",
+        "232",
+        "480",
+        "233"
+      ]
+    },
+    {
+      "query_id": "81",
+      "query": "What are the different alert severities mentioned in the IBM FlashSystem 9200 an",
+      "ground_truth": [
+        "81"
+      ],
+      "retrieved": [
+        "72",
+        "344",
+        "73",
+        "405",
+        "74",
+        "498",
+        "313",
+        "75",
+        "135",
+        "76"
+      ]
+    },
+    {
+      "query_id": "82",
+      "query": "What is the capacity of a volume in IBM FlashSystem, and what does it include?",
+      "ground_truth": [
+        "82"
+      ],
+      "retrieved": [
+        "262",
+        "174",
+        "261",
+        "161",
+        "480",
+        "225",
+        "481",
+        "226",
+        "411",
+        "400"
+      ]
+    },
+    {
+      "query_id": "83",
+      "query": "What is the difference between Enterprise HDD Capacity and Nearline HDD Capacity",
+      "ground_truth": [
+        "83"
+      ],
+      "retrieved": [
+        "337",
+        "497",
+        "480",
+        "498",
+        "481",
+        "406",
+        "411",
+        "407",
+        "261",
+        "408"
+      ]
+    },
+    {
+      "query_id": "84",
+      "query": "How does the physical connection in IBM FlashSystem's data flow process contribu",
+      "ground_truth": [
+        "84"
+      ],
+      "retrieved": [
+        "72",
+        "498",
+        "73",
+        "28",
+        "74",
+        "29",
+        "356",
+        "30",
+        "411",
+        "405"
+      ]
+    },
+    {
+      "query_id": "85",
+      "query": "What are the potential benefits of using the embedded IP replication in IBM Flas",
+      "ground_truth": [
+        "85"
+      ],
+      "retrieved": [
+        "116",
+        "314",
+        "205",
+        "315",
+        "364",
+        "18",
+        "356",
+        "375",
+        "3",
+        "376"
+      ]
+    },
+    {
+      "query_id": "86",
+      "query": "What issue does the typical Ethernet network data flow diagram illustrate?",
+      "ground_truth": [
+        "86"
+      ],
+      "retrieved": [
+        "116",
+        "158",
+        "299",
+        "84",
+        "300",
+        "85",
+        "119",
+        "86",
+        "120",
+        "301"
+      ]
+    },
+    {
+      "query_id": "87",
+      "query": "How does the transmission time of a 2148-byte packet compare across different ba",
+      "ground_truth": [
+        "87"
+      ],
+      "retrieved": [
+        "116",
+        "87",
+        "192",
+        "88",
+        "193",
+        "89",
+        "62",
+        "90",
+        "205",
+        "91"
+      ]
+    },
+    {
+      "query_id": "88",
+      "query": "What is the role of the secondary change volume in IBM's Remote Copy Consistency",
+      "ground_truth": [
+        "88"
+      ],
+      "retrieved": [
+        "16",
+        "155",
+        "17",
+        "332",
+        "364",
+        "333",
+        "205",
+        "334",
+        "19",
+        "18"
+      ]
+    },
+    {
+      "query_id": "89",
+      "query": "How does the packet size affect the time required to transmit data across differ",
+      "ground_truth": [
+        "89"
+      ],
+      "retrieved": [
+        "116",
+        "379",
+        "261",
+        "380",
+        "262",
+        "166",
+        "313",
+        "224",
+        "337",
+        "197"
+      ]
+    },
+    {
+      "query_id": "90",
+      "query": "What are the specific packet sizes used in IBM's analysis of transmission times?",
+      "ground_truth": [
+        "90"
+      ],
+      "retrieved": [
+        "313",
+        "87",
+        "135",
+        "88",
+        "136",
+        "89",
+        "137",
+        "90",
+        "411",
+        "91"
+      ]
+    },
+    {
+      "query_id": "91",
+      "query": "What is the impact of insufficient bandwidth on the transmission delay for diffe",
+      "ground_truth": [
+        "91"
+      ],
+      "retrieved": [
+        "116",
+        "266",
+        "313",
+        "375",
+        "135",
+        "376",
+        "136",
+        "166",
+        "137",
+        "197"
+      ]
+    },
+    {
+      "query_id": "92",
+      "query": "How does the automatic out of space protection feature in IBM FlashSystem help i",
+      "ground_truth": [
+        "92"
+      ],
+      "retrieved": [
+        "456",
+        "92",
+        "3",
+        "93",
+        "465",
+        "405",
+        "466",
+        "31",
+        "428",
+        "32"
+      ]
+    },
+    {
+      "query_id": "93",
+      "query": "How does IBM FlashSystem 9100 handle the migration of volumes to free up space?",
+      "ground_truth": [
+        "93"
+      ],
+      "retrieved": [
+        "205",
+        "176",
+        "356",
+        "177",
+        "364",
+        "384",
+        "480",
+        "153",
+        "481",
+        "406"
+      ]
+    },
+    {
+      "query_id": "94",
+      "query": "How many RDMA-capable Ethernet ports are required for node-to-node communication",
+      "ground_truth": [
+        "94"
+      ],
+      "retrieved": [
+        "116",
+        "497",
+        "299",
+        "225",
+        "300",
+        "226",
+        "123",
+        "489",
+        "124",
+        "275"
+      ]
+    },
+    {
+      "query_id": "95",
+      "query": "What is the impact of exceeding the DWPD set for a flash drive in an IBM FlashSy",
+      "ground_truth": [
+        "95"
+      ],
+      "retrieved": [
+        "356",
+        "38",
+        "72",
+        "39",
+        "73",
+        "40",
+        "74",
+        "41",
+        "480",
+        "489"
+      ]
+    },
+    {
+      "query_id": "96",
+      "query": "What is the maximum effective capacity of a 4.8 TiB flash drive module when 20 T",
+      "ground_truth": [
+        "96"
+      ],
+      "retrieved": [
+        "262",
+        "95",
+        "261",
+        "96",
+        "337",
+        "97",
+        "417",
+        "400",
+        "412",
+        "401"
+      ]
+    },
+    {
+      "query_id": "97",
+      "query": "What is the impact of writing non-compressible data to a flash drive module in a",
+      "ground_truth": [
+        "97"
+      ],
+      "retrieved": [
+        "356",
+        "406",
+        "3",
+        "407",
+        "72",
+        "408",
+        "73",
+        "409",
+        "74",
+        "225"
+      ]
+    },
+    {
+      "query_id": "98",
+      "query": "How can you monitor the migration process of a volume in IBM FlashSystem 9100?",
+      "ground_truth": [
+        "98"
+      ],
+      "retrieved": [
+        "72",
+        "176",
+        "73",
+        "177",
+        "74",
+        "365",
+        "205",
+        "98",
+        "364",
+        "165"
+      ]
+    },
+    {
+      "query_id": "99",
+      "query": "What should be considered when attempting to shrink a volume in IBM FlashSystem ",
+      "ground_truth": [
+        "99"
+      ],
+      "retrieved": [
+        "356",
+        "191",
+        "411",
+        "59",
+        "480",
+        "60",
+        "481",
+        "61",
+        "205",
+        "68"
+      ]
+    }
+  ]
+}

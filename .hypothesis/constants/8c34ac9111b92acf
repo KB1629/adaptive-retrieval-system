@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/storage/lancedb_backend.py
-# hypothesis_version: 6.151.4
-
-[0.0, 1.0, ' AND ', './data/lancedb', 'DocumentMetadata', 'SearchResult', '_distance', 'adaptive_retrieval', 'cosine', 'count', 'create', 'distance_metric', 'doc_id', 'dot', 'embedding_dim', 'error', 'id', 'l2', 'modality', 'model_name', 'name', 'page_number', 'path', 'processed_at', 'source_file', 'vector']

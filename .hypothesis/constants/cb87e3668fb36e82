@@ -1,4 +1,0 @@
-# file: /Users/Kabeleswar.pe/adaptive-retrieval-system/adaptive-retrieval-system/src/router/base.py
-# hypothesis_version: 6.151.4
-
-[0.0, 0.3, 0.5, 0.6, 1.0, 'error', 'text-heavy', 'visual-critical']
