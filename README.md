@@ -106,10 +106,12 @@ python scripts/run_accuracy_benchmark.py
 
 ---
 
-## Code Organization
+## Repository Structure for Guide & Reviewers
 
 ```text
 adaptive-retrieval-system/
+├── docs/                   # Final Project Reports, Presentations, and Research Paper
+├── data/                   # REAL-MM-RAG datasets and test samples
 ├── src/                    # Primary source code
 │   ├── benchmark/          # Evaluation framework running RRF and metrics
 │   ├── data/               # REAL-MM-RAG data loaders
@@ -122,6 +124,8 @@ adaptive-retrieval-system/
 ├── tests/                  # Framework unit tests
 └── pyproject.toml          # Environment dependencies
 ```
+
+*Note: All final deliverables for the viva (Project Report, Presentation, and Paper) are available in the `docs/` folder.*
 
 ## Authors
 - **Dr. P. Sriramakrishnan** – Assistant Professor, Amrita Vishwa Vidyapeetham
